@@ -6,8 +6,9 @@ import json
 import re
 from unidecode import unidecode
 import num2words
+import argparse
 
-# Custom packages
+# Local packages
 import alignment_adagt.string_manipulations as strman
 import alignment_adagt as adagt
 
@@ -26,17 +27,9 @@ Limitation:
 """
 
 
-def getFileLists(serdaDir, wordTasks, round):
-    fullTaskPath = 'audio/words/full/*.wav'
-    fullWordsFileList = glob.glob(
-        os.path.join(serdaDir, round, fullTaskPath))
-
-    segmentsTaskPath = 'audio/words/segments/*.wav'
-    segmentsWordsFileList = glob.glob(
-        os.path.join(serdaDir, round, segmentsTaskPath))
-    return fullWordsFileList, segmentsWordsFileList
-
-
+"""
+This function converts a WhisperT output JSON file to a Python Dict Object.
+"""
 def whisperTOutputJsonToDict(jsonFile):
     with open(jsonFile, 'r') as f:
         data = json.load(f)
@@ -123,19 +116,17 @@ def extractAndWriteRelevantData(serdaDir, round, file, wordIDs, outputFile):
                 oneOfSegmentsCorrect, confOfCorrectSegment, durLibrosa, logStart, logEnd]]) + '\n')
 
 
-def main():
+def run(args):
 
-    # General variables
-    serdaDir = '/vol/tensusers2/wharmsen/SERDA/'
-    round = 'round1'
-    wordTasks = ['words_1', 'words_2', 'words_3']
+    # Set audio dir
+    audioDir = '/vol/tensusers2/wharmsen/SERDA-data/audio/words'
 
     # Read prompts word tasks
-    wordIDs = pd.read_csv(os.path.join(
-        serdaDir, 'docs', 'wordtask-wordIDX.csv')).set_index('prompt_id')
+    wordIDs = pd.read_csv('/vol/tensusers2/wharmsen/SERDA-data/prompts/wordtask-wordIDX.csv')).set_index('prompt_id')
 
-    fullWordsFileList, segmentsWordsFileList = getFileLists(
-        serdaDir, wordTasks, round)
+    fullWordsFileList = segmentsWordsFileList = glob.glob(os.path.join(audioDir, '*.wav'))
+
+    segmentsWordsFileList = segmentsWordsFileList = glob.glob(os.path.join(audioDir, 'segments/*.wav'))
 
     for idx, file in enumerate(segmentsWordsFileList):
 
@@ -166,6 +157,13 @@ def main():
 
     print('Check results in:' + outputFilePath)
 
+def main():
+    parser = argparse.ArgumentParser("Message")
+    parser.add_argument("--input_urls", type=str, help = "Full path to urls.txt")
+    parser.add_argument("--audio_dir", type=str, help = "Full path to audio directory, where the audio should be stored")
+    parser.set_defaults(func=run)
+    args = parser.parse_args()
+    args.func(args)
 
-if __name__ == "__main__":
+if __name__ == '__main__':
     main()

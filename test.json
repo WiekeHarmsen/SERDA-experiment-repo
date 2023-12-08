@@ -1,0 +1,1696 @@
+{
+    "0-0-Verslaafd": {
+        "attempts": [],
+        "chunk_end": "",
+        "chunk_start": "",
+        "chunk_text": ""
+    },
+    "1-0-Als": {
+        "attempts": [
+            {
+                "attempt_end": 5.0069299784635675,
+                "attempt_start": 4.338767596881418,
+                "attempt_text": "als",
+                "correct": "correct",
+                "description": "cor",
+                "phones": "A l s"
+            }
+        ],
+        "chunk_end": 5.0069299784635675,
+        "chunk_start": 4.338767596881418,
+        "chunk_text": "als"
+    },
+    "1-1-ouders": {
+        "attempts": [
+            {
+                "attempt_end": 5.5566838367273625,
+                "attempt_start": 5.083049743453939,
+                "attempt_text": "ouder",
+                "correct": "incorrect",
+                "description": "del",
+                "phones": "AU d @ r"
+            }
+        ],
+        "chunk_end": 5.5566838367273625,
+        "chunk_start": 5.083049743453939,
+        "chunk_text": "ouders"
+    },
+    "1-10-denken": {
+        "attempts": [
+            {
+                "attempt_end": 10.23173933188461,
+                "attempt_start": 8.701625939084378,
+                "attempt_text": "denk ken",
+                "correct": "paused",
+                "description": "pause",
+                "phones": "d E n k - k @ n"
+            }
+        ],
+        "chunk_end": 10.23173933188461,
+        "chunk_start": 8.701625939084378,
+        "chunk_text": "denken"
+    },
+    "1-11-ze": {
+        "attempts": [
+            {
+                "attempt_end": 10.578388746507349,
+                "attempt_start": 10.23173933188461,
+                "attempt_text": "ze",
+                "correct": "correct",
+                "description": "cor",
+                "phones": "z @"
+            }
+        ],
+        "chunk_end": 10.578388746507349,
+        "chunk_start": 10.23173933188461,
+        "chunk_text": "ze"
+    },
+    "1-12-misschien": {
+        "attempts": [
+            {
+                "attempt_end": 11.721735673904432,
+                "attempt_start": 10.73938348044844,
+                "attempt_text": "misschien",
+                "correct": "correct",
+                "description": "cor",
+                "phones": "m I s x i n"
+            }
+        ],
+        "chunk_end": 11.721735673904432,
+        "chunk_start": 10.73938348044844,
+        "chunk_text": "misschien"
+    },
+    "1-13-dat": {
+        "attempts": [
+            {
+                "attempt_end": 11.97985372473598,
+                "attempt_start": 11.741783677852512,
+                "attempt_text": "dat",
+                "correct": "correct",
+                "description": "cor",
+                "phones": "d A t"
+            }
+        ],
+        "chunk_end": 11.97985372473598,
+        "chunk_start": 11.741783677852512,
+        "chunk_text": "dat"
+    },
+    "1-14-hun": {
+        "attempts": [
+            {
+                "attempt_end": 12.301853854306058,
+                "attempt_start": 11.97985372473598,
+                "attempt_text": "hun",
+                "correct": "correct",
+                "description": "cor",
+                "phones": "h U n"
+            }
+        ],
+        "chunk_end": 12.301853854306058,
+        "chunk_start": 11.97985372473598,
+        "chunk_text": "hun"
+    },
+    "1-15-kind": {
+        "attempts": [
+            {
+                "attempt_end": 13.244497976919115,
+                "attempt_start": 12.913718150382842,
+                "attempt_text": "kind",
+                "correct": "correct",
+                "description": "cor",
+                "phones": "k I n t"
+            }
+        ],
+        "chunk_end": 13.244497976919115,
+        "chunk_start": 12.913718150382842,
+        "chunk_text": "kind"
+    },
+    "1-16-verslaafd": {
+        "attempts": [
+            {
+                "attempt_end": 14.257545117260733,
+                "attempt_start": 13.26266292133719,
+                "attempt_text": "verslaafd",
+                "correct": "correct",
+                "description": "cor",
+                "phones": "v @ r s l a f t"
+            }
+        ],
+        "chunk_end": 14.257545117260733,
+        "chunk_start": 13.26266292133719,
+        "chunk_text": "verslaafd"
+    },
+    "1-17-is": {
+        "attempts": [
+            {
+                "attempt_end": 15.036258482617454,
+                "attempt_start": 14.6779004120455,
+                "attempt_text": "is",
+                "correct": "correct",
+                "description": "cor",
+                "phones": "I s"
+            }
+        ],
+        "chunk_end": 15.036258482617454,
+        "chunk_start": 14.6779004120455,
+        "chunk_text": "is"
+    },
+    "1-18-aan": {
+        "attempts": [
+            {
+                "attempt_end": 15.642710602046918,
+                "attempt_start": 15.27182252900741,
+                "attempt_text": "aan",
+                "correct": "correct",
+                "description": "cor",
+                "phones": "a n"
+            }
+        ],
+        "chunk_end": 15.642710602046918,
+        "chunk_start": 15.27182252900741,
+        "chunk_text": "aan"
+    },
+    "1-19-gamen": {
+        "attempts": [
+            {
+                "attempt_end": 16.815076689046645,
+                "attempt_start": 16.28631058491599,
+                "attempt_text": "gamen",
+                "correct": "incorrect",
+                "description": "sub",
+                "phones": "x a m @ n"
+            }
+        ],
+        "chunk_end": 16.815076689046645,
+        "chunk_start": 16.28631058491599,
+        "chunk_text": "gamen"
+    },
+    "1-2-zien": {
+        "attempts": [
+            {
+                "attempt_end": 6.131810949987948,
+                "attempt_start": 5.5566838367273625,
+                "attempt_text": "zien",
+                "correct": "correct",
+                "description": "cor",
+                "phones": "z i n"
+            }
+        ],
+        "chunk_end": 6.131810949987948,
+        "chunk_start": 5.5566838367273625,
+        "chunk_text": "zien"
+    },
+    "1-3-dat": {
+        "attempts": [
+            {
+                "attempt_end": 6.407870520018562,
+                "attempt_start": 6.145680218385061,
+                "attempt_text": "dat",
+                "correct": "correct",
+                "description": "cor",
+                "phones": "d A t"
+            }
+        ],
+        "chunk_end": 6.407870520018562,
+        "chunk_start": 6.145680218385061,
+        "chunk_text": "dat"
+    },
+    "1-4-je": {
+        "attempts": [
+            {
+                "attempt_end": 6.614733013902537,
+                "attempt_start": 6.437120228925004,
+                "attempt_text": "je",
+                "correct": "correct",
+                "description": "cor",
+                "phones": "j @"
+            }
+        ],
+        "chunk_end": 6.614733013902537,
+        "chunk_start": 6.437120228925004,
+        "chunk_text": "je"
+    },
+    "1-5-veel": {
+        "attempts": [
+            {
+                "attempt_end": 7.075325138583427,
+                "attempt_start": 6.618606548641197,
+                "attempt_text": "veel",
+                "correct": "correct",
+                "description": "cor",
+                "phones": "v e l"
+            }
+        ],
+        "chunk_end": 7.075325138583427,
+        "chunk_start": 6.618606548641197,
+        "chunk_text": "veel"
+    },
+    "1-6-aan": {
+        "attempts": [
+            {
+                "attempt_end": 7.379804198544912,
+                "attempt_start": 7.142987151908201,
+                "attempt_text": "aan",
+                "correct": "correct",
+                "description": "cor",
+                "phones": "a n"
+            }
+        ],
+        "chunk_end": 7.379804198544912,
+        "chunk_start": 7.142987151908201,
+        "chunk_text": "aan"
+    },
+    "1-7-het": {
+        "attempts": [
+            {
+                "attempt_end": 7.686735428868505,
+                "attempt_start": 7.379804198544912,
+                "attempt_text": "het",
+                "correct": "correct",
+                "description": "cor",
+                "phones": "h E t"
+            }
+        ],
+        "chunk_end": 7.686735428868505,
+        "chunk_start": 7.379804198544912,
+        "chunk_text": "het"
+    },
+    "1-8-gamen": {
+        "attempts": [
+            {
+                "attempt_end": 8.298558224847753,
+                "attempt_start": 7.686735428868505,
+                "attempt_text": "gamen",
+                "correct": "incorrect",
+                "description": "sub",
+                "phones": "x a m E n"
+            }
+        ],
+        "chunk_end": 8.298558224847753,
+        "chunk_start": 7.686735428868505,
+        "chunk_text": "gamen"
+    },
+    "1-9-bent": {
+        "attempts": [
+            {
+                "attempt_end": 8.628130640669244,
+                "attempt_start": 8.324904580954513,
+                "attempt_text": "ben",
+                "correct": "incorrect",
+                "description": "del",
+                "phones": "b E n"
+            }
+        ],
+        "chunk_end": 8.628130640669244,
+        "chunk_start": 8.324904580954513,
+        "chunk_text": "bent"
+    },
+    "10-0-Tijdens": {
+        "attempts": [
+            {
+                "attempt_end": 46.340820447510694,
+                "attempt_start": 46.12945010366039,
+                "attempt_text": "oo",
+                "correct": "incorrect",
+                "description": "del",
+                "phones": "o"
+            }
+        ],
+        "chunk_end": 46.340820447510694,
+        "chunk_start": 46.12945010366039,
+        "chunk_text": "ook"
+    },
+    "10-1-het": {
+        "attempts": [],
+        "chunk_end": "",
+        "chunk_start": "",
+        "chunk_text": ""
+    },
+    "10-10-elkaar": {
+        "attempts": [
+            {
+                "attempt_end": 47.8407011766589,
+                "attempt_start": 47.192373699659846,
+                "attempt_text": "vrienden",
+                "correct": "correct",
+                "description": "cor",
+                "phones": "v r i n d @ n"
+            }
+        ],
+        "chunk_end": 47.8407011766589,
+        "chunk_start": 47.192373699659846,
+        "chunk_text": "vrienden"
+    },
+    "10-11-praten": {
+        "attempts": [
+            {
+                "attempt_end": 48.16448188085817,
+                "attempt_start": 47.94036867893257,
+                "attempt_text": "af",
+                "correct": "correct",
+                "description": "cor",
+                "phones": "A f"
+            }
+        ],
+        "chunk_end": 48.16448188085817,
+        "chunk_start": 47.94036867893257,
+        "chunk_text": "af"
+    },
+    "10-2-eten": {
+        "attempts": [],
+        "chunk_end": "",
+        "chunk_start": "",
+        "chunk_text": ""
+    },
+    "10-3-eet": {
+        "attempts": [],
+        "chunk_end": "",
+        "chunk_start": "",
+        "chunk_text": ""
+    },
+    "10-4-je": {
+        "attempts": [],
+        "chunk_end": "",
+        "chunk_start": "",
+        "chunk_text": ""
+    },
+    "10-5-n": {
+        "attempts": [],
+        "chunk_end": "",
+        "chunk_start": "",
+        "chunk_text": ""
+    },
+    "10-6-kun": {
+        "attempts": [],
+        "chunk_end": "",
+        "chunk_start": "",
+        "chunk_text": ""
+    },
+    "10-7-je": {
+        "attempts": [],
+        "chunk_end": "",
+        "chunk_start": "",
+        "chunk_text": ""
+    },
+    "10-8-gezellig": {
+        "attempts": [],
+        "chunk_end": "",
+        "chunk_start": "",
+        "chunk_text": ""
+    },
+    "10-9-met": {
+        "attempts": [
+            {
+                "attempt_end": 46.79861925461,
+                "attempt_start": 46.4477753730241,
+                "attempt_text": "met",
+                "correct": "correct",
+                "description": "cor",
+                "phones": "m E t"
+            }
+        ],
+        "chunk_end": 46.79861925461,
+        "chunk_start": 46.4477753730241,
+        "chunk_text": "met"
+    },
+    "11-0-Misschien": {
+        "attempts": [
+            {
+                "attempt_end": 48.838630566717114,
+                "attempt_start": 48.53981296414965,
+                "attempt_text": "leg",
+                "correct": "correct",
+                "description": "cor",
+                "phones": "l E x"
+            }
+        ],
+        "chunk_end": 48.838630566717114,
+        "chunk_start": 48.53981296414965,
+        "chunk_text": "leg"
+    },
+    "11-1-wel": {
+        "attempts": [
+            {
+                "attempt_end": 49.17480036960551,
+                "attempt_start": 48.87331475272941,
+                "attempt_text": "ui",
+                "correct": "incorrect",
+                "description": "del",
+                "phones": "UI"
+            }
+        ],
+        "chunk_end": 49.17480036960551,
+        "chunk_start": 48.87331475272941,
+        "chunk_text": "uit"
+    },
+    "11-10-bent": {
+        "attempts": [
+            {
+                "attempt_end": 51.47154192138092,
+                "attempt_start": 50.96728721704832,
+                "attempt_text": "probleem",
+                "correct": "correct",
+                "description": "cor",
+                "phones": "p r O b l e m"
+            }
+        ],
+        "chunk_end": 51.47154192138092,
+        "chunk_start": 50.96728721704832,
+        "chunk_text": "probleem"
+    },
+    "11-2-over": {
+        "attempts": [],
+        "chunk_end": "",
+        "chunk_start": "",
+        "chunk_text": ""
+    },
+    "11-3-het": {
+        "attempts": [],
+        "chunk_end": "",
+        "chunk_start": "",
+        "chunk_text": ""
+    },
+    "11-4-spel": {
+        "attempts": [],
+        "chunk_end": "",
+        "chunk_start": "",
+        "chunk_text": ""
+    },
+    "11-5-dat": {
+        "attempts": [
+            {
+                "attempt_end": 49.487402712767604,
+                "attempt_start": 49.193921138817416,
+                "attempt_text": "dat",
+                "correct": "correct",
+                "description": "cor",
+                "phones": "d A t"
+            }
+        ],
+        "chunk_end": 49.487402712767604,
+        "chunk_start": 49.193921138817416,
+        "chunk_text": "dat"
+    },
+    "11-6-je": {
+        "attempts": [
+            {
+                "attempt_end": 49.63149964754839,
+                "attempt_start": 49.487402712767604,
+                "attempt_text": "je",
+                "correct": "correct",
+                "description": "cor",
+                "phones": "j @"
+            },
+            {
+                "attempt_end": 50.173106552201915,
+                "attempt_start": 50.02903377953546,
+                "attempt_text": "je",
+                "correct": "correct",
+                "description": "cor",
+                "phones": "j @"
+            }
+        ],
+        "chunk_end": 50.173106552201915,
+        "chunk_start": 49.487402712767604,
+        "chunk_text": "je"
+    },
+    "11-7-aan": {
+        "attempts": [],
+        "chunk_end": "",
+        "chunk_start": "",
+        "chunk_text": ""
+    },
+    "11-8-het": {
+        "attempts": [
+            {
+                "attempt_end": 50.427036680273325,
+                "attempt_start": 50.173106552201915,
+                "attempt_text": "het",
+                "correct": "correct",
+                "description": "cor",
+                "phones": "h E t"
+            }
+        ],
+        "chunk_end": 50.427036680273325,
+        "chunk_start": 50.173106552201915,
+        "chunk_text": "het"
+    },
+    "11-9-spelen": {
+        "attempts": [
+            {
+                "attempt_end": 50.816566769334486,
+                "attempt_start": 50.427036680273325,
+                "attempt_text": "geen",
+                "correct": "correct",
+                "description": "cor",
+                "phones": "x e n"
+            }
+        ],
+        "chunk_end": 50.816566769334486,
+        "chunk_start": 50.427036680273325,
+        "chunk_text": "geen"
+    },
+    "2-0-Jij": {
+        "attempts": [
+            {
+                "attempt_end": 17.581891859591508,
+                "attempt_start": 17.408977825539303,
+                "attempt_text": "jij",
+                "correct": "",
+                "description": "",
+                "phones": "j EI"
+            }
+        ],
+        "chunk_end": 17.581891859591508,
+        "chunk_start": 17.408977825539303,
+        "chunk_text": "jij"
+    },
+    "2-1-kunt": {
+        "attempts": [
+            {
+                "attempt_end": 17.9017752899498,
+                "attempt_start": 17.661320615895203,
+                "attempt_text": "kun",
+                "correct": "incorrect",
+                "description": "del",
+                "phones": "k U n"
+            }
+        ],
+        "chunk_end": 17.9017752899498,
+        "chunk_start": 17.661320615895203,
+        "chunk_text": "kunt"
+    },
+    "2-10-heel": {
+        "attempts": [
+            {
+                "attempt_end": 24.980126840632924,
+                "attempt_start": 24.440570011047,
+                "attempt_text": "heel",
+                "correct": "correct",
+                "description": "cor",
+                "phones": "h e l"
+            }
+        ],
+        "chunk_end": 24.980126840632924,
+        "chunk_start": 24.440570011047,
+        "chunk_text": "heel"
+    },
+    "2-11-weinig": {
+        "attempts": [
+            {
+                "attempt_end": 25.559337127039534,
+                "attempt_start": 24.986480317792903,
+                "attempt_text": "weinig",
+                "correct": "correct",
+                "description": "cor",
+                "phones": "w EI n @ x"
+            }
+        ],
+        "chunk_end": 25.559337127039534,
+        "chunk_start": 24.986480317792903,
+        "chunk_text": "weinig"
+    },
+    "2-12-kinderen": {
+        "attempts": [
+            {
+                "attempt_end": 26.18464781923393,
+                "attempt_start": 25.59230825631895,
+                "attempt_text": "kinderen",
+                "correct": "correct",
+                "description": "cor",
+                "phones": "k I n d @ r @ n"
+            }
+        ],
+        "chunk_end": 26.18464781923393,
+        "chunk_start": 25.59230825631895,
+        "chunk_text": "kinderen"
+    },
+    "2-13-op": {
+        "attempts": [
+            {
+                "attempt_end": 26.404575874771673,
+                "attempt_start": 26.18464781923393,
+                "attempt_text": "op",
+                "correct": "correct",
+                "description": "cor",
+                "phones": "O p"
+            }
+        ],
+        "chunk_end": 26.404575874771673,
+        "chunk_start": 26.18464781923393,
+        "chunk_text": "op"
+    },
+    "2-14-de": {
+        "attempts": [
+            {
+                "attempt_end": 26.76232551177973,
+                "attempt_start": 26.495479471060605,
+                "attempt_text": "de",
+                "correct": "correct",
+                "description": "cor",
+                "phones": "d @"
+            }
+        ],
+        "chunk_end": 26.76232551177973,
+        "chunk_start": 26.495479471060605,
+        "chunk_text": "de"
+    },
+    "2-15-basisschool": {
+        "attempts": [
+            {
+                "attempt_end": 27.622945040986146,
+                "attempt_start": 27.04233497436651,
+                "attempt_text": "bees",
+                "correct": "incorrect",
+                "description": "multi",
+                "phones": "b e s"
+            },
+            {
+                "attempt_end": 28.53784575202315,
+                "attempt_start": 28.039342159470937,
+                "attempt_text": "bies",
+                "correct": "incorrect",
+                "description": "multi",
+                "phones": "b i s"
+            },
+            {
+                "attempt_end": 29.775307611182168,
+                "attempt_start": 28.737247189044034,
+                "attempt_text": "basisschool",
+                "correct": "correct",
+                "description": "cor",
+                "phones": "b a z @ s x o l"
+            }
+        ],
+        "chunk_end": 29.775307611182168,
+        "chunk_start": 27.04233497436651,
+        "chunk_text": "basisschool"
+    },
+    "2-16-cht": {
+        "attempts": [
+            {
+                "attempt_end": 30.45359813813692,
+                "attempt_start": 30.136901738162575,
+                "attempt_text": "echt",
+                "correct": "correct",
+                "description": "cor",
+                "phones": "E x t"
+            }
+        ],
+        "chunk_end": 30.45359813813692,
+        "chunk_start": 30.136901738162575,
+        "chunk_text": "echt"
+    },
+    "2-17-verslaafd": {
+        "attempts": [
+            {
+                "attempt_end": 32.063960233685485,
+                "attempt_start": 31.055223552285714,
+                "attempt_text": "verslaafd",
+                "correct": "correct",
+                "description": "cor",
+                "phones": "v @ r s l a f t"
+            }
+        ],
+        "chunk_end": 32.063960233685485,
+        "chunk_start": 31.055223552285714,
+        "chunk_text": "verslaafd"
+    },
+    "2-2-ze": {
+        "attempts": [
+            {
+                "attempt_end": 18.095311978823013,
+                "attempt_start": 17.9017752899498,
+                "attempt_text": "ze",
+                "correct": "correct",
+                "description": "cor",
+                "phones": "z @"
+            }
+        ],
+        "chunk_end": 18.095311978823013,
+        "chunk_start": 17.9017752899498,
+        "chunk_text": "ze"
+    },
+    "2-3-vast": {
+        "attempts": [
+            {
+                "attempt_end": 18.52266351315604,
+                "attempt_start": 18.112131142818924,
+                "attempt_text": "vast",
+                "correct": "correct",
+                "description": "cor",
+                "phones": "v A s t"
+            }
+        ],
+        "chunk_end": 18.52266351315604,
+        "chunk_start": 18.112131142818924,
+        "chunk_text": "vast"
+    },
+    "2-4-wel": {
+        "attempts": [
+            {
+                "attempt_end": 18.918534013123974,
+                "attempt_start": 18.546122505746734,
+                "attempt_text": "wel",
+                "correct": "correct",
+                "description": "cor",
+                "phones": "w E l"
+            }
+        ],
+        "chunk_end": 18.918534013123974,
+        "chunk_start": 18.546122505746734,
+        "chunk_text": "wel"
+    },
+    "2-5-geruststellen": {
+        "attempts": [
+            {
+                "attempt_end": 19.281385173009163,
+                "attempt_start": 19.008674384142363,
+                "attempt_text": "ge",
+                "correct": "incorrect",
+                "description": "del",
+                "phones": "g @"
+            }
+        ],
+        "chunk_end": 19.281385173009163,
+        "chunk_start": 19.008674384142363,
+        "chunk_text": "geruststellen"
+    },
+    "2-6-want": {
+        "attempts": [
+            {
+                "attempt_end": 21.93735285863453,
+                "attempt_start": 21.4535111364515,
+                "attempt_text": "want",
+                "correct": "correct",
+                "description": "cor",
+                "phones": "w A n t"
+            }
+        ],
+        "chunk_end": 21.93735285863453,
+        "chunk_start": 21.4535111364515,
+        "chunk_text": "want"
+    },
+    "2-7-er": {
+        "attempts": [
+            {
+                "attempt_end": 22.145551417876923,
+                "attempt_start": 21.93735285863453,
+                "attempt_text": "e",
+                "correct": "incorrect",
+                "description": "del",
+                "phones": "E"
+            },
+            {
+                "attempt_end": 22.40946508452221,
+                "attempt_start": 22.23352264009202,
+                "attempt_text": "er",
+                "correct": "correct",
+                "description": "cor",
+                "phones": "E r"
+            }
+        ],
+        "chunk_end": 22.40946508452221,
+        "chunk_start": 21.93735285863453,
+        "chunk_text": "er"
+    },
+    "2-8-zijn": {
+        "attempts": [
+            {
+                "attempt_end": 22.896707821956664,
+                "attempt_start": 22.40946508452221,
+                "attempt_text": "zijn",
+                "correct": "correct",
+                "description": "cor",
+                "phones": "z EI n"
+            }
+        ],
+        "chunk_end": 22.896707821956664,
+        "chunk_start": 22.40946508452221,
+        "chunk_text": "zijn"
+    },
+    "2-9-maar": {
+        "attempts": [
+            {
+                "attempt_end": 24.440570011047,
+                "attempt_start": 24.047631885152903,
+                "attempt_text": "maar",
+                "correct": "correct",
+                "description": "cor",
+                "phones": "m a r"
+            }
+        ],
+        "chunk_end": 24.440570011047,
+        "chunk_start": 24.047631885152903,
+        "chunk_text": "maar"
+    },
+    "3-0-Hier": {
+        "attempts": [
+            {
+                "attempt_end": 32.730441967734855,
+                "attempt_start": 32.53104053071397,
+                "attempt_text": "hier",
+                "correct": "correct",
+                "description": "cor",
+                "phones": "h i r"
+            }
+        ],
+        "chunk_end": 32.730441967734855,
+        "chunk_start": 32.53104053071397,
+        "chunk_text": "hier"
+    },
+    "3-1-zijn": {
+        "attempts": [
+            {
+                "attempt_end": 33.211351315844055,
+                "attempt_start": 32.77149520476857,
+                "attempt_text": "zijn",
+                "correct": "correct",
+                "description": "cor",
+                "phones": "z EI n"
+            }
+        ],
+        "chunk_end": 33.211351315844055,
+        "chunk_start": 32.77149520476857,
+        "chunk_text": "zijn"
+    },
+    "3-10-maken": {
+        "attempts": [
+            {
+                "attempt_end": 37.998681235615116,
+                "attempt_start": 37.3476941912234,
+                "attempt_text": "maken",
+                "correct": "correct",
+                "description": "cor",
+                "phones": "m a k @ n"
+            }
+        ],
+        "chunk_end": 37.998681235615116,
+        "chunk_start": 37.3476941912234,
+        "chunk_text": "maken"
+    },
+    "3-2-wat": {
+        "attempts": [
+            {
+                "attempt_end": 33.77485580461798,
+                "attempt_start": 33.56665724537558,
+                "attempt_text": "wat",
+                "correct": "correct",
+                "description": "cor",
+                "phones": "w A t"
+            }
+        ],
+        "chunk_end": 33.77485580461798,
+        "chunk_start": 33.56665724537558,
+        "chunk_text": "wat"
+    },
+    "3-3-tips": {
+        "attempts": [
+            {
+                "attempt_end": 34.229373786062645,
+                "attempt_start": 33.87162414905458,
+                "attempt_text": "tips",
+                "correct": "correct",
+                "description": "cor",
+                "phones": "t I p s"
+            }
+        ],
+        "chunk_end": 34.229373786062645,
+        "chunk_start": 33.87162414905458,
+        "chunk_text": "tips"
+    },
+    "3-4-om": {
+        "attempts": [
+            {
+                "attempt_end": 34.54607018603699,
+                "attempt_start": 34.31734500827774,
+                "attempt_text": "om",
+                "correct": "correct",
+                "description": "cor",
+                "phones": "O m"
+            }
+        ],
+        "chunk_end": 34.54607018603699,
+        "chunk_start": 34.31734500827774,
+        "chunk_text": "om"
+    },
+    "3-5-het": {
+        "attempts": [
+            {
+                "attempt_end": 34.74840399713172,
+                "attempt_start": 34.54607018603699,
+                "attempt_text": "het",
+                "correct": "correct",
+                "description": "cor",
+                "phones": "h E t"
+            }
+        ],
+        "chunk_end": 34.74840399713172,
+        "chunk_start": 34.54607018603699,
+        "chunk_text": "het"
+    },
+    "3-6-je": {
+        "attempts": [],
+        "chunk_end": "",
+        "chunk_start": "",
+        "chunk_text": ""
+    },
+    "3-7-ouders": {
+        "attempts": [
+            {
+                "attempt_end": 35.53619974103545,
+                "attempt_start": 34.990778163301854,
+                "attempt_text": "ouders",
+                "correct": "correct",
+                "description": "cor",
+                "phones": "AU d @ r s"
+            }
+        ],
+        "chunk_end": 35.53619974103545,
+        "chunk_start": 34.990778163301854,
+        "chunk_text": "ouders"
+    },
+    "3-8-makkelijker": {
+        "attempts": [
+            {
+                "attempt_end": 36.245341520324644,
+                "attempt_start": 35.56209836112073,
+                "attempt_text": "makkelijk",
+                "correct": "incorrect",
+                "description": "del",
+                "phones": "m A k @ l @ k"
+            }
+        ],
+        "chunk_end": 36.245341520324644,
+        "chunk_start": 35.56209836112073,
+        "chunk_text": "makkelijker"
+    },
+    "3-9-te": {
+        "attempts": [
+            {
+                "attempt_end": 36.6063204078011,
+                "attempt_start": 36.36293335967267,
+                "attempt_text": "te",
+                "correct": "correct",
+                "description": "cor",
+                "phones": "t @"
+            }
+        ],
+        "chunk_end": 36.6063204078011,
+        "chunk_start": 36.36293335967267,
+        "chunk_text": "te"
+    },
+    "4-0-Game": {
+        "attempts": [
+            {
+                "attempt_end": 40.16299952514639,
+                "attempt_start": 39.453364999277944,
+                "attempt_text": "gaame",
+                "correct": "incorrect",
+                "description": "multi",
+                "phones": "x a m @"
+            }
+        ],
+        "chunk_end": 40.16299952514639,
+        "chunk_start": 39.453364999277944,
+        "chunk_text": "game"
+    },
+    "4-1-maar": {
+        "attempts": [
+            {
+                "attempt_end": 40.740159870292224,
+                "attempt_start": 40.16299952514639,
+                "attempt_text": "maar",
+                "correct": "correct",
+                "description": "cor",
+                "phones": "m a r"
+            }
+        ],
+        "chunk_end": 40.740159870292224,
+        "chunk_start": 40.16299952514639,
+        "chunk_text": "maar"
+    },
+    "4-2-ga": {
+        "attempts": [],
+        "chunk_end": "",
+        "chunk_start": "",
+        "chunk_text": ""
+    },
+    "4-3-ook": {
+        "attempts": [],
+        "chunk_end": "",
+        "chunk_start": "",
+        "chunk_text": ""
+    },
+    "4-4-lekker": {
+        "attempts": [],
+        "chunk_end": "",
+        "chunk_start": "",
+        "chunk_text": ""
+    },
+    "4-5-buitenspelen": {
+        "attempts": [],
+        "chunk_end": "",
+        "chunk_start": "",
+        "chunk_text": ""
+    },
+    "5-0-Game": {
+        "attempts": [
+            {
+                "attempt_end": 41.63062413071393,
+                "attempt_start": 41.14971478260473,
+                "attempt_text": "geme",
+                "correct": "incorrect",
+                "description": "ins",
+                "phones": "g e m @"
+            }
+        ],
+        "chunk_end": 41.63062413071393,
+        "chunk_start": 41.14971478260473,
+        "chunk_text": "game"
+    },
+    "5-1-maar": {
+        "attempts": [
+            {
+                "attempt_end": 42.221201368998265,
+                "attempt_start": 41.77564297945571,
+                "attempt_text": "maar",
+                "correct": "correct",
+                "description": "cor",
+                "phones": "m a r"
+            }
+        ],
+        "chunk_end": 42.221201368998265,
+        "chunk_start": 41.77564297945571,
+        "chunk_text": "maar"
+    },
+    "5-2-spreek": {
+        "attempts": [],
+        "chunk_end": "",
+        "chunk_start": "",
+        "chunk_text": ""
+    },
+    "5-3-ook": {
+        "attempts": [],
+        "chunk_end": "",
+        "chunk_start": "",
+        "chunk_text": ""
+    },
+    "5-4-met": {
+        "attempts": [],
+        "chunk_end": "",
+        "chunk_start": "",
+        "chunk_text": ""
+    },
+    "5-5-vrienden": {
+        "attempts": [],
+        "chunk_end": "",
+        "chunk_start": "",
+        "chunk_text": ""
+    },
+    "5-6-af": {
+        "attempts": [],
+        "chunk_end": "",
+        "chunk_start": "",
+        "chunk_text": ""
+    },
+    "6-0-Leg": {
+        "attempts": [],
+        "chunk_end": "",
+        "chunk_start": "",
+        "chunk_text": ""
+    },
+    "6-1-uit": {
+        "attempts": [],
+        "chunk_end": "",
+        "chunk_start": "",
+        "chunk_text": ""
+    },
+    "6-10-regels": {
+        "attempts": [],
+        "chunk_end": "",
+        "chunk_start": "",
+        "chunk_text": ""
+    },
+    "6-11-worden": {
+        "attempts": [],
+        "chunk_end": "",
+        "chunk_start": "",
+        "chunk_text": ""
+    },
+    "6-12-ingesteld": {
+        "attempts": [],
+        "chunk_end": "",
+        "chunk_start": "",
+        "chunk_text": ""
+    },
+    "6-13-voor": {
+        "attempts": [],
+        "chunk_end": "",
+        "chunk_start": "",
+        "chunk_text": ""
+    },
+    "6-14-het": {
+        "attempts": [],
+        "chunk_end": "",
+        "chunk_start": "",
+        "chunk_text": ""
+    },
+    "6-15-gamen": {
+        "attempts": [],
+        "chunk_end": "",
+        "chunk_start": "",
+        "chunk_text": ""
+    },
+    "6-16-Een": {
+        "attempts": [],
+        "chunk_end": "",
+        "chunk_start": "",
+        "chunk_text": ""
+    },
+    "6-17-uurtje": {
+        "attempts": [],
+        "chunk_end": "",
+        "chunk_start": "",
+        "chunk_text": ""
+    },
+    "6-18-gamen": {
+        "attempts": [],
+        "chunk_end": "",
+        "chunk_start": "",
+        "chunk_text": ""
+    },
+    "6-19-en": {
+        "attempts": [],
+        "chunk_end": "",
+        "chunk_start": "",
+        "chunk_text": ""
+    },
+    "6-2-dat": {
+        "attempts": [],
+        "chunk_end": "",
+        "chunk_start": "",
+        "chunk_text": ""
+    },
+    "6-20-dan": {
+        "attempts": [],
+        "chunk_end": "",
+        "chunk_start": "",
+        "chunk_text": ""
+    },
+    "6-21-stoppen": {
+        "attempts": [],
+        "chunk_end": "",
+        "chunk_start": "",
+        "chunk_text": ""
+    },
+    "6-22-vind": {
+        "attempts": [],
+        "chunk_end": "",
+        "chunk_start": "",
+        "chunk_text": ""
+    },
+    "6-23-je": {
+        "attempts": [],
+        "chunk_end": "",
+        "chunk_start": "",
+        "chunk_text": ""
+    },
+    "6-24-de": {
+        "attempts": [],
+        "chunk_end": "",
+        "chunk_start": "",
+        "chunk_text": ""
+    },
+    "6-25-gewoonste": {
+        "attempts": [],
+        "chunk_end": "",
+        "chunk_start": "",
+        "chunk_text": ""
+    },
+    "6-26-zaak": {
+        "attempts": [],
+        "chunk_end": "",
+        "chunk_start": "",
+        "chunk_text": ""
+    },
+    "6-27-van": {
+        "attempts": [],
+        "chunk_end": "",
+        "chunk_start": "",
+        "chunk_text": ""
+    },
+    "6-28-de": {
+        "attempts": [],
+        "chunk_end": "",
+        "chunk_start": "",
+        "chunk_text": ""
+    },
+    "6-29-wereld": {
+        "attempts": [],
+        "chunk_end": "",
+        "chunk_start": "",
+        "chunk_text": ""
+    },
+    "6-3-je": {
+        "attempts": [],
+        "chunk_end": "",
+        "chunk_start": "",
+        "chunk_text": ""
+    },
+    "6-30-Er": {
+        "attempts": [],
+        "chunk_end": "",
+        "chunk_start": "",
+        "chunk_text": ""
+    },
+    "6-31-gelden": {
+        "attempts": [],
+        "chunk_end": "",
+        "chunk_start": "",
+        "chunk_text": ""
+    },
+    "6-32-tenslotte": {
+        "attempts": [],
+        "chunk_end": "",
+        "chunk_start": "",
+        "chunk_text": ""
+    },
+    "6-33-overal": {
+        "attempts": [],
+        "chunk_end": "",
+        "chunk_start": "",
+        "chunk_text": ""
+    },
+    "6-34-regels": {
+        "attempts": [],
+        "chunk_end": "",
+        "chunk_start": "",
+        "chunk_text": ""
+    },
+    "6-4-het": {
+        "attempts": [],
+        "chunk_end": "",
+        "chunk_start": "",
+        "chunk_text": ""
+    },
+    "6-5-geen": {
+        "attempts": [],
+        "chunk_end": "",
+        "chunk_start": "",
+        "chunk_text": ""
+    },
+    "6-6-probleem": {
+        "attempts": [],
+        "chunk_end": "",
+        "chunk_start": "",
+        "chunk_text": ""
+    },
+    "6-7-vindt": {
+        "attempts": [],
+        "chunk_end": "",
+        "chunk_start": "",
+        "chunk_text": ""
+    },
+    "6-8-als": {
+        "attempts": [],
+        "chunk_end": "",
+        "chunk_start": "",
+        "chunk_text": ""
+    },
+    "6-9-er": {
+        "attempts": [],
+        "chunk_end": "",
+        "chunk_start": "",
+        "chunk_text": ""
+    },
+    "7-0-Vertel": {
+        "attempts": [],
+        "chunk_end": "",
+        "chunk_start": "",
+        "chunk_text": ""
+    },
+    "7-1-je": {
+        "attempts": [],
+        "chunk_end": "",
+        "chunk_start": "",
+        "chunk_text": ""
+    },
+    "7-10-hebt": {
+        "attempts": [],
+        "chunk_end": "",
+        "chunk_start": "",
+        "chunk_text": ""
+    },
+    "7-11-je": {
+        "attempts": [],
+        "chunk_end": "",
+        "chunk_start": "",
+        "chunk_text": ""
+    },
+    "7-12-graag": {
+        "attempts": [],
+        "chunk_end": "",
+        "chunk_start": "",
+        "chunk_text": ""
+    },
+    "7-13-iets": {
+        "attempts": [],
+        "chunk_end": "",
+        "chunk_start": "",
+        "chunk_text": ""
+    },
+    "7-14-langer": {
+        "attempts": [],
+        "chunk_end": "",
+        "chunk_start": "",
+        "chunk_text": ""
+    },
+    "7-15-wilt": {
+        "attempts": [],
+        "chunk_end": "",
+        "chunk_start": "",
+        "chunk_text": ""
+    },
+    "7-16-gamen": {
+        "attempts": [],
+        "chunk_end": "",
+        "chunk_start": "",
+        "chunk_text": ""
+    },
+    "7-2-ouders": {
+        "attempts": [],
+        "chunk_end": "",
+        "chunk_start": "",
+        "chunk_text": ""
+    },
+    "7-3-dat": {
+        "attempts": [],
+        "chunk_end": "",
+        "chunk_start": "",
+        "chunk_text": ""
+    },
+    "7-4-als": {
+        "attempts": [],
+        "chunk_end": "",
+        "chunk_start": "",
+        "chunk_text": ""
+    },
+    "7-5-je": {
+        "attempts": [],
+        "chunk_end": "",
+        "chunk_start": "",
+        "chunk_text": ""
+    },
+    "7-6-net": {
+        "attempts": [],
+        "chunk_end": "",
+        "chunk_start": "",
+        "chunk_text": ""
+    },
+    "7-7-een": {
+        "attempts": [],
+        "chunk_end": "",
+        "chunk_start": "",
+        "chunk_text": ""
+    },
+    "7-8-nieuwe": {
+        "attempts": [],
+        "chunk_end": "",
+        "chunk_start": "",
+        "chunk_text": ""
+    },
+    "7-9-game": {
+        "attempts": [],
+        "chunk_end": "",
+        "chunk_start": "",
+        "chunk_text": ""
+    },
+    "8-0-Vertel": {
+        "attempts": [],
+        "chunk_end": "",
+        "chunk_start": "",
+        "chunk_text": ""
+    },
+    "8-1-ze": {
+        "attempts": [],
+        "chunk_end": "",
+        "chunk_start": "",
+        "chunk_text": ""
+    },
+    "8-10-spelers": {
+        "attempts": [],
+        "chunk_end": "",
+        "chunk_start": "",
+        "chunk_text": ""
+    },
+    "8-11-speelt": {
+        "attempts": [],
+        "chunk_end": "",
+        "chunk_start": "",
+        "chunk_text": ""
+    },
+    "8-12-het": {
+        "attempts": [],
+        "chunk_end": "",
+        "chunk_start": "",
+        "chunk_text": ""
+    },
+    "8-13-handig": {
+        "attempts": [],
+        "chunk_end": "",
+        "chunk_start": "",
+        "chunk_text": ""
+    },
+    "8-14-is": {
+        "attempts": [],
+        "chunk_end": "",
+        "chunk_start": "",
+        "chunk_text": ""
+    },
+    "8-15-dat": {
+        "attempts": [],
+        "chunk_end": "",
+        "chunk_start": "",
+        "chunk_text": ""
+    },
+    "8-16-ze": {
+        "attempts": [],
+        "chunk_end": "",
+        "chunk_start": "",
+        "chunk_text": ""
+    },
+    "8-17-je": {
+        "attempts": [],
+        "chunk_end": "",
+        "chunk_start": "",
+        "chunk_text": ""
+    },
+    "8-18-ruim": {
+        "attempts": [],
+        "chunk_end": "",
+        "chunk_start": "",
+        "chunk_text": ""
+    },
+    "8-19-van": {
+        "attempts": [],
+        "chunk_end": "",
+        "chunk_start": "",
+        "chunk_text": ""
+    },
+    "8-2-ook": {
+        "attempts": [],
+        "chunk_end": "",
+        "chunk_start": "",
+        "chunk_text": ""
+    },
+    "8-20-tevoren": {
+        "attempts": [],
+        "chunk_end": "",
+        "chunk_start": "",
+        "chunk_text": ""
+    },
+    "8-21-waarschuwen": {
+        "attempts": [],
+        "chunk_end": "",
+        "chunk_start": "",
+        "chunk_text": ""
+    },
+    "8-22-wanneer": {
+        "attempts": [],
+        "chunk_end": "",
+        "chunk_start": "",
+        "chunk_text": ""
+    },
+    "8-23-je": {
+        "attempts": [],
+        "chunk_end": "",
+        "chunk_start": "",
+        "chunk_text": ""
+    },
+    "8-24-moet": {
+        "attempts": [],
+        "chunk_end": "",
+        "chunk_start": "",
+        "chunk_text": ""
+    },
+    "8-25-stoppen": {
+        "attempts": [],
+        "chunk_end": "",
+        "chunk_start": "",
+        "chunk_text": ""
+    },
+    "8-3-dat": {
+        "attempts": [],
+        "chunk_end": "",
+        "chunk_start": "",
+        "chunk_text": ""
+    },
+    "8-4-als": {
+        "attempts": [],
+        "chunk_end": "",
+        "chunk_start": "",
+        "chunk_text": ""
+    },
+    "8-5-je": {
+        "attempts": [],
+        "chunk_end": "",
+        "chunk_start": "",
+        "chunk_text": ""
+    },
+    "8-6-een": {
+        "attempts": [],
+        "chunk_end": "",
+        "chunk_start": "",
+        "chunk_text": ""
+    },
+    "8-7-spel": {
+        "attempts": [],
+        "chunk_end": "",
+        "chunk_start": "",
+        "chunk_text": ""
+    },
+    "8-8-met": {
+        "attempts": [],
+        "chunk_end": "",
+        "chunk_start": "",
+        "chunk_text": ""
+    },
+    "8-9-andere": {
+        "attempts": [],
+        "chunk_end": "",
+        "chunk_start": "",
+        "chunk_text": ""
+    },
+    "9-0-Natuurlijk": {
+        "attempts": [],
+        "chunk_end": "",
+        "chunk_start": "",
+        "chunk_text": ""
+    },
+    "9-1-ga": {
+        "attempts": [
+            {
+                "attempt_end": 42.72278805902222,
+                "attempt_start": 42.253217540701925,
+                "attempt_text": "ga",
+                "correct": "correct",
+                "description": "cor",
+                "phones": "x a"
+            }
+        ],
+        "chunk_end": 42.72278805902222,
+        "chunk_start": 42.253217540701925,
+        "chunk_text": "ga"
+    },
+    "9-2-je": {
+        "attempts": [
+            {
+                "attempt_end": 43.195026591651164,
+                "attempt_start": 42.829508631367744,
+                "attempt_text": "ook",
+                "correct": "correct",
+                "description": "cor",
+                "phones": "o k"
+            }
+        ],
+        "chunk_end": 43.195026591651164,
+        "chunk_start": 42.829508631367744,
+        "chunk_text": "ook"
+    },
+    "9-3-niet": {
+        "attempts": [
+            {
+                "attempt_end": 43.60758641400721,
+                "attempt_start": 43.195026591651164,
+                "attempt_text": "lekker",
+                "correct": "correct",
+                "description": "cor",
+                "phones": "l e K @ R"
+            }
+        ],
+        "chunk_end": 43.60758641400721,
+        "chunk_start": 43.195026591651164,
+        "chunk_text": "lekker"
+    },
+    "9-4-gamen": {
+        "attempts": [
+            {
+                "attempt_end": 44.63519686697698,
+                "attempt_start": 43.60758641400721,
+                "attempt_text": "buitenspelen",
+                "correct": "correct",
+                "description": "cor",
+                "phones": "b UI t @ n s p e l @"
+            }
+        ],
+        "chunk_end": 44.63519686697698,
+        "chunk_start": 43.60758641400721,
+        "chunk_text": "buitenspelen"
+    },
+    "9-5-onder": {
+        "attempts": [
+            {
+                "attempt_end": 45.134479247123814,
+                "attempt_start": 44.69692490050717,
+                "attempt_text": "geme",
+                "correct": "incorrect",
+                "description": "ins",
+                "phones": "g e m @"
+            }
+        ],
+        "chunk_end": 45.134479247123814,
+        "chunk_start": 44.69692490050717,
+        "chunk_text": "game"
+    },
+    "9-6-het": {
+        "attempts": [
+            {
+                "attempt_end": 45.50513475543908,
+                "attempt_start": 45.134479247123814,
+                "attempt_text": "maar",
+                "correct": "correct",
+                "description": "cor",
+                "phones": "m a r"
+            }
+        ],
+        "chunk_end": 45.50513475543908,
+        "chunk_start": 45.134479247123814,
+        "chunk_text": "maar"
+    },
+    "9-7-eten": {
+        "attempts": [
+            {
+                "attempt_end": 46.12945010366039,
+                "attempt_start": 45.50513475543908,
+                "attempt_text": "spreek",
+                "correct": "correct",
+                "description": "cor",
+                "phones": "s p r e k"
+            }
+        ],
+        "chunk_end": 46.12945010366039,
+        "chunk_start": 45.50513475543908,
+        "chunk_text": "spreek"
+    }
+}
