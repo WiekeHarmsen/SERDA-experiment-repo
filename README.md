@@ -35,3 +35,31 @@ Run uber.sh:
 
     nohup time ./uber.sh &
 
+
+## Description of the scripts
+
+### 01-stories-align-prompt-whispert.py
+This script takes as input one ASR_result (whisperT, .json) and corresponding prompt file (.prompt).
+This script reads the files, extracts the relevant information, aligns the prompt and ASR transcription and outputs this.
+The relevant information from the prompt file is only the reference transcription (what the child should read).
+The relevant information from the ASR result file is the 'segments' property. 
+This is a dictionary with as value an object with the following word properties: label, start_time, end_time and confidence score.
+
+This script is an improved version of /vol/tensusers5/wharmsen/ASTLA/astla-round1/2-story2file-info.ipynb
+and /vol/tensusers5/wharmsen/ASTLA/astla-round1/4-add-story-conf-info.ipynb
+
+OUTPUT: 
+A directory with one or multiple .csv files with an alignment of whisper output and prompt.
+
+Example:
+
+    promptID    aligned_asrTrans    reversed_aligned_asrTrans   correct confidence  startTime   endTimes
+    0-0-Bang    *a*l                *als                        False   0.0         0.0         0.0
+
+
+### 02-tg2dict.py
+This script converts a .TextGrid file with ASTLA manual annotations to a dictionary with promptIDs as key and the annotations as value.
+
+### 03-dict2csv.py
+This script gets as input a directory with .json files (output from 02-tg2dict.py) and computes from these files the STUDENT x PROMPT_ID dataframes.
+These are exported as CSV files.
