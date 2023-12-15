@@ -188,17 +188,23 @@ def searchAllDictValuesWithLabel(target_label, asrResultWordsDict):
 
 
 """
+This function searches in asrResultWordsDict to the values that has as label "prompt". If there are multiple options, it chooses the one with the dict index directly
+
 prompt              string: One prompt word
 asrResultWordsDict  dict:   The key is the index, the values are {label: string, start_time: float, end_time: float, confidence: float} objects. 
                             This dict contains all recognized word segments from the ASR result.
-indexThreshold      
+indexThreshold      int:    Select the first value that has an the 
 """
 def searchCorrespondingConfidence(prompt, asrResultWordsDict, indexThreshold):
 
+    # Make list of all dict values with prompt as target_label.
     allDictValues = searchAllDictValuesWithLabel(prompt, asrResultWordsDict)
+
+    # Get indexes in asrResultsWordsDict of this selection of dict values
     allDictIdxs = [getIndexOfDictValue(
         value, asrResultWordsDict) for value in allDictValues]
 
+    # Select one of these dict values. Use the indexThreshold for that.
     currentDictIdx = -1
     for i, idxItem in enumerate(allDictIdxs):
         if (idxItem > indexThreshold):

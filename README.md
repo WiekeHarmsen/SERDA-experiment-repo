@@ -38,7 +38,9 @@ Run uber.sh:
 
 ## Description of the scripts
 
-### 01-stories-align-prompt-whispert.py
+### From .json with ASR result to PROMPT_ID x PROMPT_INFO csv file
+
+#### 01-stories-align-prompt-whispert.py
 This script takes as input one ASR_result (whisperT, .json) and corresponding prompt file (.prompt).
 This script reads the files, extracts the relevant information, aligns the prompt and ASR transcription and outputs this.
 The relevant information from the prompt file is only the reference transcription (what the child should read).
@@ -56,10 +58,12 @@ Example:
     promptID    aligned_asrTrans    reversed_aligned_asrTrans   correct confidence  startTime   endTimes
     0-0-Bang    *a*l                *als                        False   0.0         0.0         0.0
 
+### From .TextGrid files to STUDENT x PROMPT_ID csv files
 
-### 02-tg2dict.py
+#### 02-tg2dict.py
 This script converts a .TextGrid file with ASTLA manual annotations to a dictionary with promptIDs as key and the annotations as value.
 
-### 03-dict2csv.py
+#### 03-dict2csv.py
 This script gets as input a directory with .json files (output from 02-tg2dict.py) and computes from these files the STUDENT x PROMPT_ID dataframes.
 These are exported as CSV files.
+
