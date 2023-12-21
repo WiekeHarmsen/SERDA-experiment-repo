@@ -10,7 +10,12 @@
 # 5. Execute this file.
 # $ nohup ./uber.sh &
 
+
 basePath='/vol/tensusers2/wharmsen/SERDA/round1'
+
+###
+# Analyse one file
+###
 
 asrFile=$basePath/asr/stories/serda-whispert-story-prompts/2RRDV-story_1-20230113142045040.json
 audioFile=$basePath/audio/stories/2RRDV-story_1-20230113142045040.wav
@@ -20,8 +25,17 @@ promptFile=/vol/tensusers2/wharmsen/SERDA-data/prompts/story_1.prompt
 # audioFile=$basePath/audio/words/segments/2RRDV-words_1_102-20230113140713310.wav
 # promptFile=$basePath/prompts/words/2RRDV-words_1_102-20230113140713310.prompt
 
-# python3 ./01-stories-align-prompt-whispert.py --analysis_type 'file' --output_dir $basePath/test/ --input_audio $audioFile --input_asr_result $asrFile --input_prompt $promptFile
 
-# python3 ./02-tg2dict.py --analysis_type 'dir' --input_tg_dir '/vol/tensusers2/wharmsen/SERDA-annotations/round1_stories_all_marjul/textgrid/mar/' --output_dir '/vol/tensusers2/wharmsen/SERDA-annotations/round1_stories_all_marjul/derived_json' --printable 'true' 
+# python3 ./01-stories-align-prompt-whispert.py --analysis_type 'file' --input_audio $audioFile --input_asr_result $asrFile --input_prompt $promptFile --output_dir $basePath/test/ 
+# python3 ./02-stories-convert-csv.py --csv_dir $basePath/test/ --output_dir $basePath/test/test
 
-python3 ./03-dict2csv.py --input_json_dir '/vol/tensusers2/wharmsen/SERDA-annotations/round1_stories_all_marjul/derived_json' --output_dir '/vol/tensusers2/wharmsen/SERDA-annotations/round1_stories_all_marjul/derived_accuracy_csv'
+###
+# Analyse a directory
+###
+audioDir=$basePath/audio/stories/
+asrDir=$basePath/asr/stories/serda-whispert-story-prompts
+promptDir=$basePath/prompts/stories
+outputDir=/vol/tensusers2/wharmsen/SERDA-experiment-data/round1/stories/serda-whispert-story-prompts
+
+python3 ./01-stories-align-prompt-whispert.py --analysis_type 'dir' --input_audio_dir $audioDir --input_asr_dir $asrDir --input_prompt_dir $promptDir --output_dir $outputDir 
+# python3 ./02-stories-convert-csv.py --csv_dir $basePath/test/ --output_dir $basePath/test/test
