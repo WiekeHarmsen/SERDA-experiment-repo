@@ -147,7 +147,7 @@ def run(args):
     storyInfoDict = {}
     storyInfoDict = initializestoryInfoDict(storyInfoDict, getSpeakerIDs(), prompt_ids_story1, 'story1')
     storyInfoDict = initializestoryInfoDict(storyInfoDict, getSpeakerIDs(), prompt_ids_story2, 'story2')
-    storyInfoDict = initializestoryInfoDict(storyInfoDict, getSpeakerIDs(), prompt_ids_story3, 'words3')
+    storyInfoDict = initializestoryInfoDict(storyInfoDict, getSpeakerIDs(), prompt_ids_story3, 'story3')
 
     # Extract file and word level measures from logs
     fileInfoDF, storyInfoDict = extract_info_from_logs(story_asr_csv_dir, storyInfoDict)
@@ -158,7 +158,7 @@ def run(args):
     export_file_level_info(fileInfoDF, output_dir, 'words-asr-filelevel-data.tsv')
     export_word_level_info(storyInfoDict, output_dir)
 
-    print("Finish script 04: Preprocess word logs, see output in:", output_dir)
+    print("Finish script, see output in:", output_dir)
 
         
 def main():

@@ -1,0 +1,5 @@
+2024-01-12 13:44:22.431915 : 9 of 30 story files processed.
+2024-01-12 13:48:05.149284 : 19 of 30 story files processed.
+2024-01-12 13:51:45.981557 : 29 of 30 story files processed.
+Script 01 completed: The prompts of all stories are aligned with the ASR results.
+Finish script, see output in: /vol/tensusers2/wharmsen/SERDA-experiment-data/round1/stories_manann_11jan/whispert_dis/csv-scores

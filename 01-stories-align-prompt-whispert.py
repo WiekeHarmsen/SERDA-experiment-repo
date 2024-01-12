@@ -23,6 +23,7 @@ import json
 import re
 from unidecode import unidecode
 import argparse
+from datetime import datetime
 
 # Local package 'dartastla'
 # First install this package by
@@ -297,7 +298,8 @@ def alignWithConfidenceScores(audioFile, asrResultFile, promptFile, outputDir, b
     # Save the csv output file with the alignment in the output_dir.
     promptAlignConfDF.set_index('promptID').to_csv(os.path.join(outputDir, basename + '.csv'))
 
-    with open(os.path.join(outputDir, 'asr-transcriptions.tsv'), 'a') as f:
+    superDirOfOutputDir = os.path.dirname(os.path.dirname(outputDir))
+    with open(os.path.join(superDirOfOutputDir, 'asr-transcriptions.tsv'), 'a') as f:
         f.write(basename+ '\t'+ asrTranscription+'\n')
      
 
@@ -328,13 +330,20 @@ def run(args):
         audioFileList = glob.glob(os.path.join(audioDir, '*.wav'))
 
         # Iterate over each audio file, select the corresponding asrResult and prompt, align the two, save csv output in outputDir
-        for audioFile in audioFileList:
-            basename = os.path.basename(audioFile).replace('.wav', '')    
+        for idx, audioFile in enumerate(audioFileList):
             
-            promptFile = os.path.join(promptDir, basename + '.prompt')
+            basename = os.path.basename(audioFile).replace('.wav', '')
+            task = basename.split('-')[1]    
+            
+            promptFile = os.path.join(promptDir, task + '.prompt')
             asrResultFile = os.path.join(asrResultDir, basename + '.json')
 
             alignWithConfidenceScores(audioFile, asrResultFile, promptFile, outputDir, basename)
+
+            if (idx+1)%10==0:
+                print(datetime.now(), ':', idx, 'of', len(audioFileList), 'story files processed.')
+        
+        print("Script 01 completed: The prompts of all stories are aligned with the ASR results.")
             
 
 def main():
