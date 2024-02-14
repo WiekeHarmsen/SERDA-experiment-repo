@@ -7,6 +7,10 @@ import os
 import glob
 import numpy as np
 import pandas as pd
+from evaluate import load #https://pypi.org/project/evaluate/ & https://huggingface.co/spaces/evaluate-metric/wer
+import alignment_adagt.adagt as adagt
+
+
 import argparse
 
 def getPromptDF(task):
@@ -20,9 +24,13 @@ def getPromptDF(task):
 
     return promptDF
 
-def getSpeakerIDs():
-    df =  pd.read_csv('/vol/tensusers2/wharmsen/SERDA-data/prompts/round1_speakerIDs.csv')
-    return list(df['round1_speaker_ids'])
+def getSpeakerIDs(round):
+    if(round == 'round1'):
+        df =  pd.read_csv('/vol/tensusers2/wharmsen/SERDA-data/prompts/round1_speakerIDs.csv')
+        return list(df['round1_speaker_ids'])
+    elif(round == 'round2'):
+        df =  pd.read_csv('/vol/tensusers2/wharmsen/SERDA-data/prompts/round2_speakerIDs.csv')
+        return list(df['round2_speaker_ids'])
 
 
 """
@@ -134,29 +142,48 @@ def export_word_level_info(wordInfoDict, outputPath):
 
 def run(args):
 
-    story_asr_csv_dir = args.csv_dir
+    asr_csv_dir = args.csv_dir
     output_dir = args.output_dir
+    task_type = args.task_type
+    round = args.round
 
-    storyFileList = glob.glob(os.path.join(story_asr_csv_dir, '*.csv'))
+    fileList = glob.glob(os.path.join(asr_csv_dir, '*.csv'))
 
-    prompt_ids_story1 = getPromptDF('story_1')['prompt_id']
-    prompt_ids_story2 = getPromptDF('story_2')['prompt_id']
-    prompt_ids_story3 = getPromptDF('story_3')['prompt_id']
+    if(task_type == 'stories'):
 
-    # Initialize output DFs (studentIDs x promptIDs)
-    storyInfoDict = {}
-    storyInfoDict = initializestoryInfoDict(storyInfoDict, getSpeakerIDs(), prompt_ids_story1, 'story1')
-    storyInfoDict = initializestoryInfoDict(storyInfoDict, getSpeakerIDs(), prompt_ids_story2, 'story2')
-    storyInfoDict = initializestoryInfoDict(storyInfoDict, getSpeakerIDs(), prompt_ids_story3, 'story3')
+        prompt_ids_story1 = getPromptDF('story_1')['prompt_id']
+        prompt_ids_story2 = getPromptDF('story_2')['prompt_id']
+        prompt_ids_story3 = getPromptDF('story_3')['prompt_id']
 
-    # Extract file and word level measures from logs
-    fileInfoDF, storyInfoDict = extract_info_from_logs(story_asr_csv_dir, storyInfoDict)
+        # Initialize output DFs (studentIDs x promptIDs)
+        infoDict = {}
+        infoDict = initializestoryInfoDict(infoDict, getSpeakerIDs(round), prompt_ids_story1, 'story1')
+        infoDict = initializestoryInfoDict(infoDict, getSpeakerIDs(round), prompt_ids_story2, 'story2')
+        infoDict = initializestoryInfoDict(infoDict, getSpeakerIDs(round), prompt_ids_story3, 'story3')
+
+        # Extract file and word level measures from logs
+        fileInfoDF, storyInfoDict = extract_info_from_logs(asr_csv_dir, storyInfoDict)
+
+    if(task_type == 'words'):
+
+        prompt_ids_words1 = getPromptDF('words_1')['prompt_id']
+        prompt_ids_words2 = getPromptDF('words_2')['prompt_id']
+        prompt_ids_words3 = getPromptDF('words_3')['prompt_id']
+
+        # Initialize output DFs (studentIDs x promptIDs)
+        infoDict = {}
+        infoDict = initializestoryInfoDict(infoDict, getSpeakerIDs(round), prompt_ids_words1, 'words1')
+        infoDict = initializestoryInfoDict(infoDict, getSpeakerIDs(round), prompt_ids_words2, 'words2')
+        infoDict = initializestoryInfoDict(infoDict, getSpeakerIDs(round), prompt_ids_words3, 'words3')
+
+        # Extract file and word level measures from logs
+        fileInfoDF, infoDict = extract_info_from_logs(asr_csv_dir, infoDict)
 
     # Write the file-level and word-level measures
     if not os.path.exists(output_dir):
         os.makedirs(output_dir)
     export_file_level_info(fileInfoDF, output_dir, 'words-asr-filelevel-data.tsv')
-    export_word_level_info(storyInfoDict, output_dir)
+    export_word_level_info(infoDict, output_dir)
 
     print("Finish script, see output in:", output_dir)
 
@@ -164,6 +191,8 @@ def run(args):
 def main():
     parser = argparse.ArgumentParser("Message")
     parser.add_argument("--csv_dir", type=str, help = "Dir with csv files that contain for each prompt a cor/inc score. This is the output of the previous script.")
+    parser.add_argument("--task_type", type=str, help = "Task type: stories or words")
+    parser.add_argument("--round", type=str, help = "Round: round1 or round2")
     parser.add_argument("--output_dir", type=str, help = "Output directory - asr log measures")
     parser.set_defaults(func=run)
     args = parser.parse_args()

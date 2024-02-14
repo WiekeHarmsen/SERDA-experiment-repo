@@ -1,4 +1,6 @@
 """
+This script is different from 01-stories-align-prompt-whispert.py for one function: readAsrResult()
+
 This script takes as input one ASR_result (whisperT, .json) and corresponding prompt file (.prompt).
 This script reads the files, extracts the relevant information, aligns the prompt and ASR transcription and outputs this.
 The relevant information from the prompt file is only the reference transcription (what the child should read).
@@ -48,16 +50,43 @@ def readPromptFile(path_to_prompt_file):
     prompt = strman.normalizeText(promptRaw)
     return prompt
 
+def whisperTOutputJsonToDict(jsonFile):
+    with open(jsonFile, 'r') as f:
+        data = json.load(f)
+    return data
+
 """
 This function reads one json file with an WhisperT AsrResult.
 The asrTranscription is normalized (trim spaces, remove accents, remove punctuation, remove digits)
 """
 def readAsrResult(asrResultFile):
 
-    whisperToutput = whutil.whisperTOutputJsonToDict(asrResultFile)
-    wordDictIdxBased, wordDictLabelBased = whutil.extractWordInfoFromWhisperTOutputWithIDs(whisperToutput)
-    
-    asrTranscriptionRaw = " ".join(list(wordDictLabelBased.keys()))
+    # whisperToutput = whutil.whisperTOutputJsonToDict(asrResultFile)
+    # wordDictIdxBased, wordDictLabelBased = whutil.extractWordInfoFromWhisperTOutputWithIDs(whisperToutput)
+
+    jsonObject = whisperTOutputJsonToDict(asrResultFile)
+
+    # Save word information in WordDict
+    wordDict = {}
+    for wordSegment in jsonObject:
+        label=wordSegment['text']
+        wordDict[wordSegment['text']] = {
+            'confidence': wordSegment['conf'],
+            'start': wordSegment['start'],
+            'end': wordSegment['end']
+        }
+
+    # Save word information in WordDictIdxBased
+    wordDictIdxBased = {}
+    for counter, wordSegment in enumerate(jsonObject):
+        wordDictIdxBased[counter] = {
+            'label': wordSegment['text'],
+            'confidence': wordSegment['conf'],
+            'start': wordSegment['start'],
+            'end': wordSegment['end']
+        }
+
+    asrTranscriptionRaw = " ".join(list(wordDict.keys()))
     asrTranscription = strman.normalizeText(asrTranscriptionRaw)
 
     return asrTranscription, wordDictIdxBased
@@ -275,35 +304,31 @@ def getPromptIdxs(basename):
     return list(promptDF['prompt_id'])
 
 
-def alignWithConfidenceScores(audioFile, asrResultFile, promptFile, outputDir, basename):
+def alignWithConfidenceScores(audioFile, asrResultFile, promptFile, outputDir, basename, asr_transcription_output_file):
     
     checkIfFilesExist(audioFile, asrResultFile, promptFile)
 
-    try:
-        # Read prompt file
-        prompt = readPromptFile(promptFile)
+    # try:
+    # Read prompt file
+    prompt = readPromptFile(promptFile)
 
-        # Read whisperT transcription file
-        asrTranscription, asrWordInfoDict = readAsrResult(asrResultFile)
+    # Read whisperT transcription file
+    asrTranscription, asrWordInfoDict = readAsrResult(asrResultFile)
 
-        # Align prompt and AsrResult transcription
-        promptAlignDF = alignOneFile(asrTranscription, prompt)
+    # Align prompt and AsrResult transcription
+    promptAlignDF = alignOneFile(asrTranscription, prompt)
 
-        # Add confidence scores with AsrResult
-        promptAlignConfDF = addConfidenceScores(promptAlignDF, asrWordInfoDict)
+    # Add confidence scores with AsrResult
+    promptAlignConfDF = addConfidenceScores(promptAlignDF, asrWordInfoDict)
 
-        # Add promptIDs
-        promptAlignConfDF['promptID'] = getPromptIdxs(basename)
+    # Add promptIDs
+    promptAlignConfDF['promptID'] = getPromptIdxs(basename)
 
-        # Save the csv output file with the alignment in the output_dir.
-        promptAlignConfDF.set_index('promptID').to_csv(os.path.join(outputDir, basename + '.csv'))
+    # Save the csv output file with the alignment in the output_dir.
+    promptAlignConfDF.set_index('promptID').to_csv(os.path.join(outputDir, basename + '.csv'))
 
-        with open(os.path.join(outputDir, 'asr-transcriptions.tsv'), 'a') as f:
-            f.write(basename+ '\t'+ asrTranscription+'\n')
-
-    except Exception as e:
-        print("Error encountered: ", e)
-        print(basename + '\tcannot be created. The ASR result is empty.')
+    with open(os.path.join(outputDir, 'asr-transcriptions.tsv'), 'a') as f:
+        f.write(basename+ '\t'+ asrTranscription+'\n')
      
 
 def run(args):
@@ -316,13 +341,18 @@ def run(args):
     if not os.path.exists(outputDir):
         os.makedirs(outputDir)
 
+    # Remove asr-transcriptions.tsv if it already exists
+    asr_transcription_output_file = os.path.join(outputDir, 'asr-transcriptions.tsv')
+    if os.path.isfile(asr_transcription_output_file):
+        os.remove(asr_transcription_output_file)
+
     if(analysisType == 'file'):
         audioFile = args.input_audio
         asrResultFile = args.input_asr_result
         promptFile = args.input_prompt
         basename = os.path.basename(audioFile).replace('.wav', '') 
 
-        alignWithConfidenceScores(audioFile, asrResultFile, promptFile, outputDir, basename)
+        alignWithConfidenceScores(audioFile, asrResultFile, promptFile, outputDir, basename, asr_transcription_output_file)
     
     elif(analysisType == 'dir'):
         audioDir = args.input_audio_dir
@@ -331,26 +361,23 @@ def run(args):
         
         # List all audio files
         audioFileList = glob.glob(os.path.join(audioDir, '*.wav'))
-        print(len(audioFileList))
 
         # Iterate over each audio file, select the corresponding asrResult and prompt, align the two, save csv output in outputDir
         for idx, audioFile in enumerate(audioFileList):
-
+            print(idx+1,'/',(len(audioFileList)))
+            
             basename = os.path.basename(audioFile).replace('.wav', '')
             task = basename.split('-')[1]    
+            
+            promptFile = os.path.join(promptDir, task + '.prompt')
+            asrResultFile = os.path.join(asrResultDir, basename + '.json')
 
-            # Check if csv alignment file already exists. If not, do the analysis.
-            if not os.path.isfile(os.path.join(outputDir, basename + '.csv')):
-                
-                promptFile = os.path.join(promptDir, task + '.prompt')
-                asrResultFile = os.path.join(asrResultDir, basename + '.json')
-
-                alignWithConfidenceScores(audioFile, asrResultFile, promptFile, outputDir, basename)
+            alignWithConfidenceScores(audioFile, asrResultFile, promptFile, outputDir, basename, asr_transcription_output_file)
 
             if (idx+1)%10==0:
-                print(datetime.now(), ':', idx, 'of', len(audioFileList), 'audio files processed.')
+                print(datetime.now(), ':', idx, 'of', len(audioFileList), 'story files processed.')
         
-        print("Script 01 completed: The prompts of all task files are aligned with the ASR results.")
+        print("Script 01 completed: The prompts of all stories are aligned with the ASR results.")
             
 
 def main():

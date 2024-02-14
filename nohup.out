@@ -3,3 +3,471 @@
 2024-01-12 13:51:45.981557 : 29 of 30 story files processed.
 Script 01 completed: The prompts of all stories are aligned with the ASR results.
 Finish script, see output in: /vol/tensusers2/wharmsen/SERDA-experiment-data/round1/stories_manann_11jan/whispert_dis/csv-scores
+2024-01-12 13:38:39.052580 : 9 of 584 story files processed.
+2024-01-12 13:42:19.651544 : 19 of 584 story files processed.
+2024-01-12 13:46:00.138873 : 29 of 584 story files processed.
+2024-01-12 13:49:39.165789 : 39 of 584 story files processed.
+2024-01-12 13:53:16.956723 : 49 of 584 story files processed.
+2024-01-12 13:57:02.863631 : 59 of 584 story files processed.
+2024-01-12 14:00:50.770962 : 69 of 584 story files processed.
+2024-01-12 14:04:39.289487 : 79 of 584 story files processed.
+2024-01-12 14:08:26.141165 : 89 of 584 story files processed.
+2024-01-12 14:12:10.372083 : 99 of 584 story files processed.
+2024-01-12 14:16:02.894592 : 109 of 584 story files processed.
+2024-01-12 14:19:43.101425 : 119 of 584 story files processed.
+2024-01-12 14:23:28.357527 : 129 of 584 story files processed.
+2024-01-12 14:27:12.714796 : 139 of 584 story files processed.
+2024-01-12 14:31:02.945528 : 149 of 584 story files processed.
+2024-01-12 14:35:40.360371 : 159 of 584 story files processed.
+2024-01-12 14:39:25.667407 : 169 of 584 story files processed.
+2024-01-12 14:43:29.014315 : 179 of 584 story files processed.
+2024-01-12 14:47:58.780967 : 189 of 584 story files processed.
+2024-01-12 14:52:12.404887 : 199 of 584 story files processed.
+2024-01-12 14:56:50.525117 : 209 of 584 story files processed.
+2024-01-12 15:01:03.599692 : 219 of 584 story files processed.
+2024-01-12 15:04:49.176981 : 229 of 584 story files processed.
+2024-01-12 15:08:49.795122 : 239 of 584 story files processed.
+2024-01-12 15:12:36.050980 : 249 of 584 story files processed.
+2024-01-12 15:16:07.710016 : 259 of 584 story files processed.
+2024-01-12 15:19:48.892752 : 269 of 584 story files processed.
+2024-01-12 15:23:38.381260 : 279 of 584 story files processed.
+2024-01-12 15:27:20.625554 : 289 of 584 story files processed.
+2024-01-12 15:31:10.783344 : 299 of 584 story files processed.
+2024-01-12 15:34:56.352596 : 309 of 584 story files processed.
+2024-01-12 15:38:31.168758 : 319 of 584 story files processed.
+2024-01-12 15:42:28.014172 : 329 of 584 story files processed.
+2024-01-12 15:46:12.400081 : 339 of 584 story files processed.
+2024-01-12 15:50:04.778798 : 349 of 584 story files processed.
+2024-01-12 15:53:58.257343 : 359 of 584 story files processed.
+2024-01-12 15:57:38.348394 : 369 of 584 story files processed.
+2024-01-12 16:01:12.573181 : 379 of 584 story files processed.
+2024-01-12 16:04:46.741280 : 389 of 584 story files processed.
+2024-01-12 16:08:15.953460 : 399 of 584 story files processed.
+2024-01-12 16:11:51.252837 : 409 of 584 story files processed.
+2024-01-12 16:15:34.240936 : 419 of 584 story files processed.
+2024-01-12 16:19:28.155706 : 429 of 584 story files processed.
+2024-01-12 16:23:04.844216 : 439 of 584 story files processed.
+2024-01-12 16:26:45.754792 : 449 of 584 story files processed.
+2024-01-12 16:30:16.584630 : 459 of 584 story files processed.
+2024-01-12 16:33:47.684954 : 469 of 584 story files processed.
+2024-01-12 16:37:47.695108 : 479 of 584 story files processed.
+2024-01-12 16:41:34.278914 : 489 of 584 story files processed.
+2024-01-12 16:45:15.190255 : 499 of 584 story files processed.
+2024-01-12 16:48:58.160680 : 509 of 584 story files processed.
+2024-01-12 16:52:42.501356 : 519 of 584 story files processed.
+2024-01-12 16:56:28.777024 : 529 of 584 story files processed.
+2024-01-12 17:00:06.851011 : 539 of 584 story files processed.
+2024-01-12 17:04:01.188806 : 549 of 584 story files processed.
+2024-01-12 17:07:46.896459 : 559 of 584 story files processed.
+2024-01-12 17:11:21.357440 : 569 of 584 story files processed.
+2024-01-12 17:15:35.850025 : 579 of 584 story files processed.
+Script 01 completed: The prompts of all stories are aligned with the ASR results.
+./uber_stories.sh: line 43: ir: command not found
+Finish script, see output in: /vol/tensusers2/wharmsen/SERDA-experiment-data/round1/stories/whispert_dis/csv-scores
+2024-02-09 10:32:18.500953 : 9 of 1337 story files processed.
+2024-02-09 10:34:31.567424 : 19 of 1337 story files processed.
+2024-02-09 10:36:47.173514 : 29 of 1337 story files processed.
+2024-02-09 10:39:10.103438 : 39 of 1337 story files processed.
+2024-02-09 10:41:24.589069 : 49 of 1337 story files processed.
+2024-02-09 10:43:28.789493 : 59 of 1337 story files processed.
+2024-02-09 10:45:43.376708 : 69 of 1337 story files processed.
+2024-02-09 10:49:07.652314 : 79 of 1337 story files processed.
+2024-02-09 10:51:23.551479 : 89 of 1337 story files processed.
+2024-02-09 10:53:38.827200 : 99 of 1337 story files processed.
+2024-02-09 10:55:58.991657 : 109 of 1337 story files processed.
+2024-02-09 10:58:01.832236 : 119 of 1337 story files processed.
+2024-02-09 11:00:03.702512 : 129 of 1337 story files processed.
+2024-02-09 11:02:35.538734 : 139 of 1337 story files processed.
+Traceback (most recent call last):
+  File "/vol/tensusers5/wharmsen/SERDA-experiment-repo/./01-stories-align-prompt-whispert.py", line 368, in <module>
+    main()
+  File "/vol/tensusers5/wharmsen/SERDA-experiment-repo/./01-stories-align-prompt-whispert.py", line 365, in main
+    args.func(args)
+  File "/vol/tensusers5/wharmsen/SERDA-experiment-repo/./01-stories-align-prompt-whispert.py", line 340, in run
+    alignWithConfidenceScores(audioFile, asrResultFile, promptFile, outputDir, basename)
+  File "/vol/tensusers5/wharmsen/SERDA-experiment-repo/./01-stories-align-prompt-whispert.py", line 296, in alignWithConfidenceScores
+    promptAlignConfDF['promptID'] = getPromptIdxs(basename)
+  File "/usr/lib/python3/dist-packages/pandas/core/frame.py", line 3612, in __setitem__
+    self._set_item(key, value)
+  File "/usr/lib/python3/dist-packages/pandas/core/frame.py", line 3784, in _set_item
+    value = self._sanitize_column(value)
+  File "/usr/lib/python3/dist-packages/pandas/core/frame.py", line 4509, in _sanitize_column
+    com.require_length_match(value, self.index)
+  File "/usr/lib/python3/dist-packages/pandas/core/common.py", line 531, in require_length_match
+    raise ValueError(
+ValueError: Length of values (174) does not match length of index (175)
+Traceback (most recent call last):
+  File "/vol/tensusers5/wharmsen/SERDA-experiment-repo/./01-stories-align-prompt-whispert.py", line 374, in <module>
+    main()
+  File "/vol/tensusers5/wharmsen/SERDA-experiment-repo/./01-stories-align-prompt-whispert.py", line 371, in main
+    args.func(args)
+  File "/vol/tensusers5/wharmsen/SERDA-experiment-repo/./01-stories-align-prompt-whispert.py", line 338, in run
+    if not os.path.isfile(os.path.join(outputDir, basename + '.csv')):
+UnboundLocalError: local variable 'basename' referenced before assignment
+2024-02-09 13:17:55.445998 : 9 of 1362 audio files processed.
+2024-02-09 13:17:55.447289 : 19 of 1362 audio files processed.
+2024-02-09 13:18:21.733282 : 29 of 1362 audio files processed.
+2024-02-09 13:19:43.430685 : 39 of 1362 audio files processed.
+2024-02-09 13:20:59.875086 : 49 of 1362 audio files processed.
+2024-02-09 13:22:25.427930 : 59 of 1362 audio files processed.
+2024-02-09 13:23:47.616039 : 69 of 1362 audio files processed.
+2024-02-09 13:25:49.351125 : 79 of 1362 audio files processed.
+Error encountered:  Length of values (50) does not match length of index (51)
+2024-02-09 13:27:23.082927 : 89 of 1362 audio files processed.
+2024-02-09 13:28:38.602081 : 99 of 1362 audio files processed.
+Error encountered:  Length of values (50) does not match length of index (51)
+2024-02-09 13:29:53.698202 : 109 of 1362 audio files processed.
+2024-02-09 13:31:18.640190 : 119 of 1362 audio files processed.
+2024-02-09 13:32:43.917267 : 129 of 1362 audio files processed.
+2024-02-09 13:34:10.227742 : 139 of 1362 audio files processed.
+2024-02-09 13:35:33.145237 : 149 of 1362 audio files processed.
+2024-02-09 13:36:57.435670 : 159 of 1362 audio files processed.
+2024-02-09 13:38:15.310687 : 169 of 1362 audio files processed.
+2024-02-09 13:39:36.951256 : 179 of 1362 audio files processed.
+2024-02-09 13:40:53.396867 : 189 of 1362 audio files processed.
+2024-02-09 13:42:12.512511 : 199 of 1362 audio files processed.
+2024-02-09 13:43:31.613565 : 209 of 1362 audio files processed.
+2024-02-09 13:44:53.556159 : 219 of 1362 audio files processed.
+2024-02-09 13:46:14.291928 : 229 of 1362 audio files processed.
+2024-02-09 13:47:51.491401 : 239 of 1362 audio files processed.
+2024-02-09 13:49:07.069949 : 249 of 1362 audio files processed.
+2024-02-09 13:50:23.119481 : 259 of 1362 audio files processed.
+2024-02-09 13:51:43.769039 : 269 of 1362 audio files processed.
+2024-02-09 13:53:19.154975 : 279 of 1362 audio files processed.
+2024-02-09 13:54:41.185550 : 289 of 1362 audio files processed.
+2024-02-09 13:55:57.075951 : 299 of 1362 audio files processed.
+Error encountered:  Length of values (50) does not match length of index (51)
+2024-02-09 13:57:23.567867 : 309 of 1362 audio files processed.
+2024-02-09 13:59:30.525858 : 319 of 1362 audio files processed.
+2024-02-09 14:00:56.556640 : 329 of 1362 audio files processed.
+2024-02-09 14:02:35.377902 : 339 of 1362 audio files processed.
+2024-02-09 14:04:03.780764 : 349 of 1362 audio files processed.
+2024-02-09 14:05:26.143672 : 359 of 1362 audio files processed.
+2024-02-09 14:07:00.837201 : 369 of 1362 audio files processed.
+2024-02-09 14:08:13.849355 : 379 of 1362 audio files processed.
+2024-02-09 14:09:34.029535 : 389 of 1362 audio files processed.
+2024-02-09 14:11:07.544794 : 399 of 1362 audio files processed.
+2024-02-09 14:12:24.113208 : 409 of 1362 audio files processed.
+2024-02-09 14:13:46.915721 : 419 of 1362 audio files processed.
+2024-02-09 14:14:54.347733 : 429 of 1362 audio files processed.
+2024-02-09 14:16:03.047806 : 439 of 1362 audio files processed.
+2024-02-09 14:17:35.041868 : 449 of 1362 audio files processed.
+2024-02-09 14:18:56.946465 : 459 of 1362 audio files processed.
+2024-02-09 14:20:20.799375 : 469 of 1362 audio files processed.
+2024-02-09 14:21:48.060239 : 479 of 1362 audio files processed.
+2024-02-09 14:23:10.998556 : 489 of 1362 audio files processed.
+2024-02-09 14:24:35.148703 : 499 of 1362 audio files processed.
+2024-02-09 14:25:53.483573 : 509 of 1362 audio files processed.
+2024-02-09 14:27:15.451976 : 519 of 1362 audio files processed.
+2024-02-09 14:28:30.249121 : 529 of 1362 audio files processed.
+2024-02-09 14:29:43.463271 : 539 of 1362 audio files processed.
+2024-02-09 14:31:10.108755 : 549 of 1362 audio files processed.
+2024-02-09 14:32:24.169603 : 559 of 1362 audio files processed.
+2024-02-09 14:33:37.146489 : 569 of 1362 audio files processed.
+2024-02-09 14:34:57.529491 : 579 of 1362 audio files processed.
+2024-02-09 14:36:18.918837 : 589 of 1362 audio files processed.
+2024-02-09 14:37:43.247431 : 599 of 1362 audio files processed.
+2024-02-09 14:39:06.664339 : 609 of 1362 audio files processed.
+2024-02-09 14:40:29.220021 : 619 of 1362 audio files processed.
+2024-02-09 14:41:49.555897 : 629 of 1362 audio files processed.
+2024-02-09 14:43:09.323041 : 639 of 1362 audio files processed.
+2024-02-09 14:44:27.341220 : 649 of 1362 audio files processed.
+2024-02-09 14:46:04.176461 : 659 of 1362 audio files processed.
+2024-02-09 14:47:23.992290 : 669 of 1362 audio files processed.
+2024-02-09 14:48:30.873393 : 679 of 1362 audio files processed.
+2024-02-09 14:50:15.557939 : 689 of 1362 audio files processed.
+2024-02-09 14:51:31.435299 : 699 of 1362 audio files processed.
+2024-02-09 14:53:03.000039 : 709 of 1362 audio files processed.
+2024-02-09 14:54:05.000854 : 719 of 1362 audio files processed.
+2024-02-09 14:55:30.194312 : 729 of 1362 audio files processed.
+2024-02-09 14:56:58.879035 : 739 of 1362 audio files processed.
+2024-02-09 14:58:12.115442 : 749 of 1362 audio files processed.
+2024-02-09 14:59:29.679862 : 759 of 1362 audio files processed.
+2024-02-09 15:00:57.507480 : 769 of 1362 audio files processed.
+2024-02-09 15:02:33.183959 : 779 of 1362 audio files processed.
+2024-02-09 15:03:58.990154 : 789 of 1362 audio files processed.
+2024-02-09 15:05:15.573085 : 799 of 1362 audio files processed.
+2024-02-09 15:06:32.642077 : 809 of 1362 audio files processed.
+2024-02-09 15:07:55.668825 : 819 of 1362 audio files processed.
+2024-02-09 15:09:24.247131 : 829 of 1362 audio files processed.
+2024-02-09 15:10:49.551573 : 839 of 1362 audio files processed.
+Error encountered:  Length of values (50) does not match length of index (51)
+2024-02-09 15:12:06.249720 : 849 of 1362 audio files processed.
+2024-02-09 15:13:34.597259 : 859 of 1362 audio files processed.
+Error encountered:  Length of values (50) does not match length of index (51)
+2024-02-09 15:14:56.061931 : 869 of 1362 audio files processed.
+2024-02-09 15:16:19.500599 : 879 of 1362 audio files processed.
+2024-02-09 15:17:51.947580 : 889 of 1362 audio files processed.
+2024-02-09 15:19:09.654230 : 899 of 1362 audio files processed.
+2024-02-09 15:20:32.026868 : 909 of 1362 audio files processed.
+2024-02-09 15:22:06.374915 : 919 of 1362 audio files processed.
+2024-02-09 15:23:32.216540 : 929 of 1362 audio files processed.
+2024-02-09 15:25:06.560823 : 939 of 1362 audio files processed.
+2024-02-09 15:26:28.097266 : 949 of 1362 audio files processed.
+2024-02-09 15:27:42.975029 : 959 of 1362 audio files processed.
+2024-02-09 15:28:59.602176 : 969 of 1362 audio files processed.
+2024-02-09 15:30:34.825523 : 979 of 1362 audio files processed.
+Error encountered:  Length of values (50) does not match length of index (51)
+2024-02-09 15:32:05.498908 : 989 of 1362 audio files processed.
+2024-02-09 15:33:31.950102 : 999 of 1362 audio files processed.
+2024-02-09 15:34:56.507511 : 1009 of 1362 audio files processed.
+2024-02-09 15:36:16.455660 : 1019 of 1362 audio files processed.
+2024-02-09 15:37:29.350937 : 1029 of 1362 audio files processed.
+2024-02-09 15:38:47.734267 : 1039 of 1362 audio files processed.
+2024-02-09 15:40:04.943067 : 1049 of 1362 audio files processed.
+2024-02-09 15:41:35.737213 : 1059 of 1362 audio files processed.
+2024-02-09 15:43:03.564648 : 1069 of 1362 audio files processed.
+2024-02-09 15:44:25.531485 : 1079 of 1362 audio files processed.
+2024-02-09 15:45:42.572163 : 1089 of 1362 audio files processed.
+2024-02-09 15:46:58.124592 : 1099 of 1362 audio files processed.
+2024-02-09 15:48:17.699654 : 1109 of 1362 audio files processed.
+2024-02-09 15:50:07.961463 : 1119 of 1362 audio files processed.
+2024-02-09 15:51:51.965426 : 1129 of 1362 audio files processed.
+2024-02-09 15:53:23.004253 : 1139 of 1362 audio files processed.
+2024-02-09 15:55:13.342311 : 1149 of 1362 audio files processed.
+2024-02-09 15:56:33.126886 : 1159 of 1362 audio files processed.
+2024-02-09 15:58:08.104690 : 1169 of 1362 audio files processed.
+2024-02-09 15:59:36.334818 : 1179 of 1362 audio files processed.
+2024-02-09 16:01:26.384064 : 1189 of 1362 audio files processed.
+2024-02-09 16:02:44.224380 : 1199 of 1362 audio files processed.
+2024-02-09 16:04:05.365467 : 1209 of 1362 audio files processed.
+2024-02-09 16:05:36.445506 : 1219 of 1362 audio files processed.
+Error encountered:  Length of values (50) does not match length of index (51)
+Error encountered:  Length of values (50) does not match length of index (51)
+2024-02-09 16:06:47.167567 : 1229 of 1362 audio files processed.
+2024-02-09 16:08:10.029948 : 1239 of 1362 audio files processed.
+2024-02-09 16:09:48.531365 : 1249 of 1362 audio files processed.
+2024-02-09 16:11:17.809850 : 1259 of 1362 audio files processed.
+2024-02-09 16:12:35.810626 : 1269 of 1362 audio files processed.
+2024-02-09 16:13:59.411917 : 1279 of 1362 audio files processed.
+2024-02-09 16:15:17.541712 : 1289 of 1362 audio files processed.
+2024-02-09 16:16:40.092095 : 1299 of 1362 audio files processed.
+2024-02-09 16:18:04.414260 : 1309 of 1362 audio files processed.
+2024-02-09 16:19:27.739757 : 1319 of 1362 audio files processed.
+2024-02-09 16:20:46.676025 : 1329 of 1362 audio files processed.
+2024-02-09 16:22:09.226844 : 1339 of 1362 audio files processed.
+2024-02-09 16:23:36.378666 : 1349 of 1362 audio files processed.
+2024-02-09 16:24:56.332575 : 1359 of 1362 audio files processed.
+Script 01 completed: The prompts of all task files are aligned with the ASR results.
+Script 01 completed: The prompts of all task files are aligned with the ASR results.
+2024-02-13 11:55:36.132113: I tensorflow/core/platform/cpu_feature_guard.cc:182] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2024-02-13 11:55:39.842809: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Could not find TensorRT
+Finish script, see output in: /vol/tensusers2/wharmsen/SERDA-experiment-data/round1/words/whispert_dis/csv-scores
+591
+2024-02-13 12:09:11.080575 : 9 of 591 audio files processed.
+2024-02-13 12:10:44.835165 : 19 of 591 audio files processed.
+2024-02-13 12:12:18.949885 : 29 of 591 audio files processed.
+2024-02-13 12:13:51.431841 : 39 of 591 audio files processed.
+2024-02-13 12:15:11.236730 : 49 of 591 audio files processed.
+2024-02-13 12:16:46.332772 : 59 of 591 audio files processed.
+2024-02-13 12:18:11.123881 : 69 of 591 audio files processed.
+2024-02-13 12:20:26.315066 : 79 of 591 audio files processed.
+2024-02-13 12:22:46.063184 : 89 of 591 audio files processed.
+2024-02-13 12:24:51.945944 : 99 of 591 audio files processed.
+2024-02-13 12:26:24.244640 : 109 of 591 audio files processed.
+2024-02-13 12:27:53.709263 : 119 of 591 audio files processed.
+2024-02-13 12:29:26.524579 : 129 of 591 audio files processed.
+2024-02-13 12:30:52.041243 : 139 of 591 audio files processed.
+2024-02-13 12:32:26.283235 : 149 of 591 audio files processed.
+2024-02-13 12:33:48.195284 : 159 of 591 audio files processed.
+2024-02-13 12:35:08.422995 : 169 of 591 audio files processed.
+2024-02-13 12:36:34.677756 : 179 of 591 audio files processed.
+2024-02-13 12:38:03.485690 : 189 of 591 audio files processed.
+2024-02-13 12:39:20.906586 : 199 of 591 audio files processed.
+2024-02-13 12:42:10.303959 : 209 of 591 audio files processed.
+2024-02-13 12:43:42.358387 : 219 of 591 audio files processed.
+2024-02-13 12:45:03.112036 : 229 of 591 audio files processed.
+2024-02-13 12:46:27.262343 : 239 of 591 audio files processed.
+2024-02-13 12:48:07.155440 : 249 of 591 audio files processed.
+2024-02-13 12:49:26.633707 : 259 of 591 audio files processed.
+2024-02-13 12:50:49.679366 : 269 of 591 audio files processed.
+2024-02-13 12:52:29.411145 : 279 of 591 audio files processed.
+2024-02-13 12:53:47.699661 : 289 of 591 audio files processed.
+2024-02-13 12:55:07.260873 : 299 of 591 audio files processed.
+2024-02-13 12:56:23.865017 : 309 of 591 audio files processed.
+2024-02-13 12:57:47.382577 : 319 of 591 audio files processed.
+2024-02-13 12:59:16.082102 : 329 of 591 audio files processed.
+2024-02-13 13:00:36.972851 : 339 of 591 audio files processed.
+2024-02-13 13:01:49.567509 : 349 of 591 audio files processed.
+2024-02-13 13:03:09.412301 : 359 of 591 audio files processed.
+2024-02-13 13:04:31.419640 : 369 of 591 audio files processed.
+2024-02-13 13:06:05.718150 : 379 of 591 audio files processed.
+2024-02-13 13:07:26.826895 : 389 of 591 audio files processed.
+2024-02-13 13:08:48.933357 : 399 of 591 audio files processed.
+2024-02-13 13:10:09.204226 : 409 of 591 audio files processed.
+2024-02-13 13:12:16.454025 : 419 of 591 audio files processed.
+2024-02-13 13:13:34.816574 : 429 of 591 audio files processed.
+2024-02-13 13:15:16.356291 : 439 of 591 audio files processed.
+2024-02-13 13:16:30.814374 : 449 of 591 audio files processed.
+2024-02-13 13:17:48.522356 : 459 of 591 audio files processed.
+Error encountered:  Length of values (50) does not match length of index (51)
+WHHXX-words_1-20221107131603232	cannot be created. The ASR result is empty.
+2024-02-13 13:19:02.697404 : 469 of 591 audio files processed.
+2024-02-13 13:20:54.113841 : 479 of 591 audio files processed.
+2024-02-13 13:22:30.055805 : 489 of 591 audio files processed.
+2024-02-13 13:23:58.907366 : 499 of 591 audio files processed.
+2024-02-13 13:25:20.692448 : 509 of 591 audio files processed.
+2024-02-13 13:26:40.293111 : 519 of 591 audio files processed.
+2024-02-13 13:28:00.947281 : 529 of 591 audio files processed.
+2024-02-13 13:29:24.568486 : 539 of 591 audio files processed.
+2024-02-13 13:30:55.044774 : 549 of 591 audio files processed.
+2024-02-13 13:32:19.126617 : 559 of 591 audio files processed.
+2024-02-13 13:33:48.987095 : 569 of 591 audio files processed.
+2024-02-13 13:35:12.915005 : 579 of 591 audio files processed.
+Error encountered:  Length of values (50) does not match length of index (51)
+5FHDQ-words_1-20221107113712810	cannot be created. The ASR result is empty.
+2024-02-13 13:36:41.678827 : 589 of 591 audio files processed.
+Script 01 completed: The prompts of all task files are aligned with the ASR results.
+2024-02-13 13:36:54.736894: I tensorflow/core/platform/cpu_feature_guard.cc:182] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2024-02-13 13:36:55.919950: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Could not find TensorRT
+Finish script, see output in: /vol/tensusers2/wharmsen/SERDA-experiment-data/round1/words/whispert_dis/csv-scores
+1337
+2024-02-13 14:02:21.815440 : 9 of 1337 audio files processed.
+2024-02-13 14:02:21.816602 : 19 of 1337 audio files processed.
+2024-02-13 14:02:21.817627 : 29 of 1337 audio files processed.
+2024-02-13 14:02:21.818804 : 39 of 1337 audio files processed.
+2024-02-13 14:02:21.819981 : 49 of 1337 audio files processed.
+2024-02-13 14:02:21.821181 : 59 of 1337 audio files processed.
+2024-02-13 14:02:21.822293 : 69 of 1337 audio files processed.
+2024-02-13 14:02:21.823406 : 79 of 1337 audio files processed.
+2024-02-13 14:02:21.824572 : 89 of 1337 audio files processed.
+2024-02-13 14:02:21.825676 : 99 of 1337 audio files processed.
+2024-02-13 14:02:21.826798 : 109 of 1337 audio files processed.
+2024-02-13 14:02:21.827976 : 119 of 1337 audio files processed.
+2024-02-13 14:02:21.829155 : 129 of 1337 audio files processed.
+2024-02-13 14:02:21.830377 : 139 of 1337 audio files processed.
+Error encountered:  Length of values (174) does not match length of index (175)
+CDZGC-story_1-20231002131815458	cannot be created. The ASR result is empty.
+2024-02-13 14:03:32.160047 : 149 of 1337 audio files processed.
+2024-02-13 14:07:26.873180 : 159 of 1337 audio files processed.
+2024-02-13 14:11:06.233457 : 169 of 1337 audio files processed.
+2024-02-13 14:14:49.023694 : 179 of 1337 audio files processed.
+2024-02-13 14:18:11.550272 : 189 of 1337 audio files processed.
+2024-02-13 14:22:13.735652 : 199 of 1337 audio files processed.
+2024-02-13 14:25:30.755748 : 209 of 1337 audio files processed.
+2024-02-13 14:28:57.437593 : 219 of 1337 audio files processed.
+2024-02-13 14:32:46.039460 : 229 of 1337 audio files processed.
+2024-02-13 14:36:43.904489 : 239 of 1337 audio files processed.
+2024-02-13 14:40:15.270855 : 249 of 1337 audio files processed.
+2024-02-13 14:43:50.686757 : 259 of 1337 audio files processed.
+2024-02-13 14:47:34.661326 : 269 of 1337 audio files processed.
+2024-02-13 14:51:35.534864 : 279 of 1337 audio files processed.
+2024-02-13 14:54:54.528600 : 289 of 1337 audio files processed.
+2024-02-13 14:58:17.249605 : 299 of 1337 audio files processed.
+2024-02-13 15:02:02.203142 : 309 of 1337 audio files processed.
+2024-02-13 15:06:08.387121 : 319 of 1337 audio files processed.
+2024-02-13 15:10:13.240459 : 329 of 1337 audio files processed.
+2024-02-13 15:14:02.233294 : 339 of 1337 audio files processed.
+2024-02-13 15:17:37.013839 : 349 of 1337 audio files processed.
+2024-02-13 15:21:18.315955 : 359 of 1337 audio files processed.
+2024-02-13 15:24:57.314990 : 369 of 1337 audio files processed.
+2024-02-13 15:28:39.029184 : 379 of 1337 audio files processed.
+2024-02-13 15:32:17.612768 : 389 of 1337 audio files processed.
+2024-02-13 15:36:09.550271 : 399 of 1337 audio files processed.
+2024-02-13 15:39:37.477119 : 409 of 1337 audio files processed.
+2024-02-13 15:43:25.804578 : 419 of 1337 audio files processed.
+2024-02-13 15:47:04.836936 : 429 of 1337 audio files processed.
+2024-02-13 15:50:48.809505 : 439 of 1337 audio files processed.
+2024-02-13 15:54:45.609830 : 449 of 1337 audio files processed.
+2024-02-13 15:58:13.161960 : 459 of 1337 audio files processed.
+2024-02-13 16:02:08.219442 : 469 of 1337 audio files processed.
+2024-02-13 16:05:19.353290 : 479 of 1337 audio files processed.
+2024-02-13 16:09:06.703002 : 489 of 1337 audio files processed.
+2024-02-13 16:12:39.062543 : 499 of 1337 audio files processed.
+2024-02-13 16:16:15.163383 : 509 of 1337 audio files processed.
+2024-02-13 16:19:50.038886 : 519 of 1337 audio files processed.
+2024-02-13 16:23:22.135065 : 529 of 1337 audio files processed.
+2024-02-13 16:26:42.528198 : 539 of 1337 audio files processed.
+2024-02-13 16:30:10.530785 : 549 of 1337 audio files processed.
+2024-02-13 16:33:47.880111 : 559 of 1337 audio files processed.
+2024-02-13 16:37:36.754971 : 569 of 1337 audio files processed.
+2024-02-13 16:41:19.060915 : 579 of 1337 audio files processed.
+2024-02-13 16:45:12.818759 : 589 of 1337 audio files processed.
+2024-02-13 16:48:24.042416 : 599 of 1337 audio files processed.
+2024-02-13 16:51:58.652959 : 609 of 1337 audio files processed.
+2024-02-13 16:55:36.768831 : 619 of 1337 audio files processed.
+2024-02-13 16:59:16.552287 : 629 of 1337 audio files processed.
+2024-02-13 17:02:53.080062 : 639 of 1337 audio files processed.
+2024-02-13 17:06:34.260257 : 649 of 1337 audio files processed.
+2024-02-13 17:10:43.029379 : 659 of 1337 audio files processed.
+2024-02-13 17:14:13.649960 : 669 of 1337 audio files processed.
+2024-02-13 17:18:01.238357 : 679 of 1337 audio files processed.
+2024-02-13 17:21:52.468043 : 689 of 1337 audio files processed.
+2024-02-13 17:25:28.913990 : 699 of 1337 audio files processed.
+2024-02-13 17:29:13.585792 : 709 of 1337 audio files processed.
+2024-02-13 17:32:25.973079 : 719 of 1337 audio files processed.
+2024-02-13 17:36:05.001775 : 729 of 1337 audio files processed.
+2024-02-13 17:39:41.106960 : 739 of 1337 audio files processed.
+2024-02-13 17:43:21.429861 : 749 of 1337 audio files processed.
+2024-02-13 17:47:05.421021 : 759 of 1337 audio files processed.
+2024-02-13 17:50:52.244461 : 769 of 1337 audio files processed.
+2024-02-13 17:54:11.349689 : 779 of 1337 audio files processed.
+2024-02-13 17:57:43.908190 : 789 of 1337 audio files processed.
+2024-02-13 18:01:16.050284 : 799 of 1337 audio files processed.
+2024-02-13 18:04:46.910739 : 809 of 1337 audio files processed.
+2024-02-13 18:08:18.495444 : 819 of 1337 audio files processed.
+2024-02-13 18:11:46.720392 : 829 of 1337 audio files processed.
+2024-02-13 18:15:50.545164 : 839 of 1337 audio files processed.
+2024-02-13 18:19:43.466798 : 849 of 1337 audio files processed.
+2024-02-13 18:23:25.008727 : 859 of 1337 audio files processed.
+2024-02-13 18:27:34.863200 : 869 of 1337 audio files processed.
+2024-02-13 18:31:18.875703 : 879 of 1337 audio files processed.
+2024-02-13 18:34:50.646786 : 889 of 1337 audio files processed.
+2024-02-13 18:38:03.682330 : 899 of 1337 audio files processed.
+2024-02-13 18:41:30.495324 : 909 of 1337 audio files processed.
+2024-02-13 18:45:09.153411 : 919 of 1337 audio files processed.
+2024-02-13 18:48:52.236165 : 929 of 1337 audio files processed.
+2024-02-13 18:52:24.149287 : 939 of 1337 audio files processed.
+2024-02-13 18:56:06.774911 : 949 of 1337 audio files processed.
+2024-02-13 19:00:09.562437 : 959 of 1337 audio files processed.
+2024-02-13 19:03:47.470597 : 969 of 1337 audio files processed.
+2024-02-13 19:08:05.199878 : 979 of 1337 audio files processed.
+2024-02-13 19:12:24.764133 : 989 of 1337 audio files processed.
+2024-02-13 19:16:28.425425 : 999 of 1337 audio files processed.
+2024-02-13 19:20:34.198692 : 1009 of 1337 audio files processed.
+2024-02-13 19:24:44.691077 : 1019 of 1337 audio files processed.
+2024-02-13 19:29:30.937159 : 1029 of 1337 audio files processed.
+2024-02-13 19:33:23.235316 : 1039 of 1337 audio files processed.
+2024-02-13 19:37:27.469130 : 1049 of 1337 audio files processed.
+2024-02-13 19:41:20.925021 : 1059 of 1337 audio files processed.
+2024-02-13 19:46:22.062795 : 1069 of 1337 audio files processed.
+2024-02-13 19:50:05.174668 : 1079 of 1337 audio files processed.
+2024-02-13 19:53:08.762914 : 1089 of 1337 audio files processed.
+2024-02-13 19:57:25.940358 : 1099 of 1337 audio files processed.
+2024-02-13 20:02:14.934411 : 1109 of 1337 audio files processed.
+2024-02-13 20:06:10.014311 : 1119 of 1337 audio files processed.
+2024-02-13 20:10:17.171461 : 1129 of 1337 audio files processed.
+2024-02-13 20:13:50.641010 : 1139 of 1337 audio files processed.
+2024-02-13 20:17:45.878975 : 1149 of 1337 audio files processed.
+2024-02-13 20:22:11.801837 : 1159 of 1337 audio files processed.
+2024-02-13 20:26:40.269286 : 1169 of 1337 audio files processed.
+2024-02-13 20:30:27.243757 : 1179 of 1337 audio files processed.
+2024-02-13 20:34:46.446241 : 1189 of 1337 audio files processed.
+2024-02-13 20:38:36.878752 : 1199 of 1337 audio files processed.
+2024-02-13 20:42:27.118729 : 1209 of 1337 audio files processed.
+2024-02-13 20:46:27.548786 : 1219 of 1337 audio files processed.
+2024-02-13 20:50:38.115310 : 1229 of 1337 audio files processed.
+2024-02-13 20:55:02.742905 : 1239 of 1337 audio files processed.
+2024-02-13 20:58:47.735902 : 1249 of 1337 audio files processed.
+2024-02-13 21:02:59.544409 : 1259 of 1337 audio files processed.
+2024-02-13 21:07:04.325066 : 1269 of 1337 audio files processed.
+2024-02-13 21:11:07.698255 : 1279 of 1337 audio files processed.
+2024-02-13 21:15:07.716203 : 1289 of 1337 audio files processed.
+2024-02-13 21:19:01.122911 : 1299 of 1337 audio files processed.
+2024-02-13 21:22:54.950641 : 1309 of 1337 audio files processed.
+2024-02-13 21:26:59.916108 : 1319 of 1337 audio files processed.
+2024-02-13 21:30:49.262110 : 1329 of 1337 audio files processed.
+Script 01 completed: The prompts of all task files are aligned with the ASR results.
+2024-02-13 21:33:33.817428: I tensorflow/core/platform/cpu_feature_guard.cc:182] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2024-02-13 21:33:36.987548: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Could not find TensorRT
+Traceback (most recent call last):
+  File "/vol/tensusers5/wharmsen/SERDA-experiment-repo/./02-stories-convert-csv.py", line 202, in <module>
+    main()
+  File "/vol/tensusers5/wharmsen/SERDA-experiment-repo/./02-stories-convert-csv.py", line 199, in main
+    args.func(args)
+  File "/vol/tensusers5/wharmsen/SERDA-experiment-repo/./02-stories-convert-csv.py", line 165, in run
+    fileInfoDF, storyInfoDict = extract_info_from_logs(asr_csv_dir, storyInfoDict)
+UnboundLocalError: local variable 'storyInfoDict' referenced before assignment
