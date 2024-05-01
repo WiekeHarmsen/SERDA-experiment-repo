@@ -9,6 +9,7 @@ from sklearn.metrics import accuracy_score, precision_score, recall_score, matth
 
 
 def read_manual_accuracy_scores(manual_accuracy_dir, task):
+    task=task.replace('stories', 'story')
     manualStory1File = os.path.join(manual_accuracy_dir, task+'1_manual_accuracy.csv')
     manualStory2File = os.path.join(manual_accuracy_dir, task+'2_manual_accuracy.csv')
     manualStory3File = os.path.join(manual_accuracy_dir, task+'3_manual_accuracy.csv')
@@ -26,7 +27,7 @@ def read_manual_accuracy_scores(manual_accuracy_dir, task):
     return manualStory1DF, manualStory2DF, manualStory3DF
 
 def read_automatic_accuracy_scores(asr_accuracy_dir, task):
-
+    task=task.replace('stories', 'story')
     asrStory1File = os.path.join(asr_accuracy_dir, task+'1AsrAccuracyDF.tsv')
     asrStory2File = os.path.join(asr_accuracy_dir, task+'2AsrAccuracyDF.tsv')
     asrStory3File = os.path.join(asr_accuracy_dir, task+'3AsrAccuracyDF.tsv')
@@ -41,8 +42,17 @@ def read_automatic_accuracy_scores(asr_accuracy_dir, task):
 
     return asrStory1DF, asrStory2DF, asrStory3DF
 
+def swap_correct_incorrect(binary_array):
+    binary_array = [9 if x == 0 else 1 for x in binary_array]
+    binary_array = [0 if x == 1 else 1 for x in binary_array ]
+    return binary_array
 
 def computeEvaluationMetrics(title, y_true, y_pred):
+
+    # By swapping correct and incorrect, we annotate all incorrect words as ones, and all correct words as zeroes.
+    y_true = swap_correct_incorrect(y_true)
+    y_pred = swap_correct_incorrect(y_pred)
+    
     size = "N=" + str(len(y_true))
     acc = "Acc=" + str(round(accuracy_score(y_true, y_pred),3))
     prec = "Prec=" + str(round(precision_score(y_true, y_pred, zero_division=np.nan),3))

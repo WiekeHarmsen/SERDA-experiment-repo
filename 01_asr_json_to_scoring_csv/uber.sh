@@ -11,7 +11,7 @@
 # $ nohup ./uber.sh &
 
 
-basePath='/vol/tensusers2/wharmsen/SERDA/round1'
+# basePath='/vol/tensusers2/wharmsen/SERDA/round1'
 
 ###
 # Analyse one file
@@ -45,17 +45,20 @@ basePath='/vol/tensusers2/wharmsen/SERDA/round1'
 promptDir=/vol/tensusers2/wharmsen/SERDA-data/prompts
 
 modelname=whispert_dis #Choose the right 01 script
-round=round2 #Choose the right 01 script
-task=stories #stories
-subset=stories #stories
+round=round1 #Choose the right 01 script
+task=words #stories
+subset=words #stories
 
-audioDir=/vol/tensusers2/wharmsen/SERDA-data/$round/audio/$task
+audioDir=/vol/tensusers2/wharmsen/SERDA/$round/audio/$task
 #audioDir=/vol/tensusers2/wharmsen/SERDA/$round/audio/$task/full # This is the audio dir for round1 audio (SERDA ipv SERDA-data)
 asrDir=/vol/tensusers2/wharmsen/SERDA-experiment-data/$round/$subset/$modelname/json-asr-results #whispert
 
 output_dir_csv_alignments=/vol/tensusers2/wharmsen/SERDA-experiment-data/$round/$subset/$modelname/csv-alignments
 output_dir_csv_accuracy=/vol/tensusers2/wharmsen/SERDA-experiment-data/$round/$subset/$modelname/csv-scores
+output_dir_csv_nrRecWords=/vol/tensusers2/wharmsen/SERDA-experiment-data/$round/$subset/$modelname/number_recognized_words
 
-python3 ./01-stories-align-prompt-whispert.py --analysis_type 'dir' --input_audio_dir $audioDir --input_asr_dir $asrDir --input_prompt_dir $promptDir --output_dir $output_dir_csv_alignments
+# python3 ./01-stories-align-prompt-whispert.py --analysis_type 'dir' --input_audio_dir $audioDir --input_asr_dir $asrDir --input_prompt_dir $promptDir --output_dir $output_dir_csv_alignments
 # python3 ./01-stories-align-prompt-ctc-kurz-w2v.py --analysis_type 'dir' --input_audio_dir $audioDir --input_asr_dir $asrDir --input_prompt_dir $promptDir --output_dir $output_dir_csv_alignments 
-python3 ./02-stories-convert-csv.py --csv_dir $output_dir_csv_alignments --task_type $task --round $round --output_dir $output_dir_csv_accuracy
+# python3 ./02-stories-convert-csv.py --csv_dir $output_dir_csv_alignments --task_type $task --round $round --output_dir $output_dir_csv_accuracy
+
+python3 ./03-get-nr-rec-words.py --model_name $modelname --task_type $task --input_asr_dir $asrDir --output_dir $output_dir_csv_nrRecWords

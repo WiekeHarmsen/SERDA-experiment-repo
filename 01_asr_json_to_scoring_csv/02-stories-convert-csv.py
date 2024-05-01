@@ -162,7 +162,7 @@ def run(args):
         infoDict = initializestoryInfoDict(infoDict, getSpeakerIDs(round), prompt_ids_story3, 'story3')
 
         # Extract file and word level measures from logs
-        fileInfoDF, storyInfoDict = extract_info_from_logs(asr_csv_dir, storyInfoDict)
+        fileInfoDF, infoDict = extract_info_from_logs(asr_csv_dir, infoDict)
 
     if(task_type == 'words'):
 

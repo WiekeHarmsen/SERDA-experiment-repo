@@ -1,0 +1,18 @@
+cd /vol/tensusers5/wharmsen
+
+./sctk score \
+  --ignore-first=true \
+  --delimiter="," \
+  --col-id=0 \
+  --col-trn=1 \
+  --normalize-unicode=true \
+  --cer=false \
+  --out=/vol/tensusers2/wharmsen/SERDA-experiment-data/round1/stories_manann_11jan/ctc_kurz_w2v_fc/report_WER \
+  --ref=/vol/tensusers2/wharmsen/SERDA-annotations/round1_stories_all_11jan/02_json/asr-transcriptions.csv \
+  --hyp=/vol/tensusers2/wharmsen/SERDA-experiment-data/round1/stories_manann_11jan/ctc_kurz_w2v_fc/csv-alignments/asr-transcriptions.csv \
+
+  # The output is printed in /vol/tensusers5/wharmsen/report
+  # Set cer=true to get CER and false to get WER
+
+  --hyp=/vol/tensusers2/wharmsen/SERDA-experiment-data/round1/stories_manann_11jan/whispert_dis/csv-alignments/asr-transcriptions.csv \
+  --hyp=/vol/tensusers2/wharmsen/SERDA-experiment-data/round1/stories_manann_11jan/ctc_kurz_w2v_fc/csv-alignments/asr-transcriptions.csv \
