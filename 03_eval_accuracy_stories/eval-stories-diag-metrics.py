@@ -1,6 +1,5 @@
 import argparse
 import pandas as pd
-from sklearn.metrics import matthews_corrcoef, confusion_matrix, ConfusionMatrixDisplay
 import numpy as np
 import os
 from evaluate import load #https://pypi.org/project/evaluate/ & https://huggingface.co/spaces/evaluate-metric/wer
