@@ -46,8 +46,8 @@ promptDir=/vol/tensusers2/wharmsen/SERDA-data/prompts
 
 modelname=whispert_dis #Choose the right 01 script
 round=round1 #Choose the right 01 script
-task=words #stories
-subset=words #stories
+task=stories #stories
+subset=stories #stories
 
 audioDir=/vol/tensusers2/wharmsen/SERDA/$round/audio/$task
 #audioDir=/vol/tensusers2/wharmsen/SERDA/$round/audio/$task/full # This is the audio dir for round1 audio (SERDA ipv SERDA-data)

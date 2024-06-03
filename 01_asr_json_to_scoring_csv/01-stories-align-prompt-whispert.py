@@ -55,9 +55,9 @@ The asrTranscription is normalized (trim spaces, remove accents, remove punctuat
 def readAsrResult(asrResultFile):
 
     whisperToutput = whutil.whisperTOutputJsonToDict(asrResultFile)
-    wordDictIdxBased, wordDictLabelBased = whutil.extractWordInfoFromWhisperTOutputWithIDs(whisperToutput)
+    wordDictIdxBased = whutil.extractWordInfoFromWhisperTOutputWithIDs(whisperToutput)
     
-    asrTranscriptionRaw = " ".join(list(wordDictLabelBased.keys()))
+    asrTranscriptionRaw = whisperToutput['text']
     asrTranscription = strman.normalizeText(asrTranscriptionRaw)
 
     return asrTranscription, wordDictIdxBased

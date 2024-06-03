@@ -44,8 +44,9 @@ def run(args):
         task = filename.split('-')[1]
 
         whisperToutput = whutil.whisperTOutputJsonToDict(asrResultFile)
-        segment_length_list = [len(whisperToutput['segments'][x]['words']) for x in range(len(whisperToutput['segments']))]
-        nr_of_rec_words = sum(segment_length_list)
+        # segment_length_list = [len(whisperToutput['segments'][x]['words']) for x in range(len(whisperToutput['segments']))]
+        # nr_of_rec_words = sum(segment_length_list)
+        nr_of_rec_words = len(whisperToutput['text'].split(' '))
 
         if(task == 'story_1'):
             story1Matrix.append([studentID, nr_of_rec_words])
